@@ -1,0 +1,85 @@
+{
+  "actName": "Bihar Public Land Encroachment Act",
+  "actNameHindi": "बिहार लोक भूमि अतिक्रमण अधिनियम",
+  "actYear": 1956,
+  "shortName": "BPLE 1956",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "An Act to provide for summary eviction of persons from public land in Bihar and to prevent encroachments on such land.",
+  "officialSource": "https://state.bihar.gov.in/revenue",
+  "sections": [
+    {
+      "sectionNumber": "2",
+      "sectionTitle": "Definitions",
+      "sectionTitleHindi": "परिभाषाएँ",
+      "text": "In this Act, unless the context otherwise requires: (a) 'Public land' means any land belonging to, or vested in, the State Government or the Central Government or any local authority or any public body, and includes any land declared to be a public land by any law for the time being in force; (b) 'Encroachment' means any unauthorised occupation or use of public land or any part thereof; (c) 'Encroacher' means any person who has encroached upon public land without any lawful authority, lease, licence, or permission; (d) 'Collector' means the Collector of the district and includes any Additional Collector, Sub-Divisional Officer, or Circle Officer empowered by the Collector; (e) 'Government land' includes all land recorded as government land, sarkari zameen, gauchar, chaur, river bed, tank bed, road, path, or any land in which the State has proprietary rights.",
+      "textHindi": "इस अधिनियम में, जब तक संदर्भ से अन्यथा अपेक्षित न हो: (क) 'लोक भूमि' से ऐसी कोई भूमि अभिप्रेत है जो राज्य सरकार या केन्द्र सरकार या किसी स्थानीय प्राधिकरण या किसी सार्वजनिक निकाय की हो या उसमें निहित हो; (ख) 'अतिक्रमण' से लोक भूमि या उसके किसी भाग का कोई अनधिकृत अधिभोग या उपयोग अभिप्रेत है; (ग) 'अतिक्रमणकारी' से कोई ऐसा व्यक्ति अभिप्रेत है जिसने बिना किसी वैध प्राधिकार, पट्टे, लाइसेंस या अनुमति के लोक भूमि पर अतिक्रमण किया हो।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["public land", "encroachment", "government land", "sarkari zameen", "gauchar", "definition", "collector", "encroacher", "loka bhumi", "atikraman"]
+    },
+    {
+      "sectionNumber": "3",
+      "sectionTitle": "Notice to Encroacher",
+      "sectionTitleHindi": "अतिक्रमणकारी को नोटिस",
+      "text": "Where the Collector has reason to believe that any person has encroached on any public land, he may cause a notice to be served on such person requiring him to show cause within such period, not being less than fifteen days from the date of service of such notice, why an order of eviction should not be made against him. The notice shall specify: (a) the land alleged to be encroached upon with particulars of khata and khesra numbers, area, and location; (b) the nature of the alleged encroachment; (c) the date by which the encroacher must respond. The notice shall be served personally on the encroacher, and if personal service is not possible, by affixing it on the door of his residence or on the encroached land. Publication of such notice in the local newspaper may also be directed by the Collector.",
+      "textHindi": "जहाँ समाहर्त्ता को विश्वास करने का कारण है कि किसी व्यक्ति ने किसी लोक भूमि पर अतिक्रमण किया है, वह ऐसे व्यक्ति को नोटिस की तामिला की तारीख से पन्द्रह दिन से कम नहीं की अवधि के भीतर कारण बताने की अपेक्षा करते हुए नोटिस तामिला करा सकता है कि उसके विरुद्ध बेदखली का आदेश क्यों न पारित किया जाए।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["notice", "encroacher", "15 days", "show cause", "eviction", "collector", "khata khesra", "service of notice", "personal service", "newspaper", "notic taamila"]
+    },
+    {
+      "sectionNumber": "4",
+      "sectionTitle": "Order of Eviction",
+      "sectionTitleHindi": "बेदखली का आदेश",
+      "text": "If after considering the cause shown, if any, under Section 3 and after giving the encroacher an opportunity of being heard, the Collector is satisfied that the person has encroached on public land, he may by order direct that person to vacate the land and remove any building or other structure erected or any crop sown on such land within such time as may be specified in the order. The order of eviction shall contain: (a) particulars of the land encroached upon (khata, khesra, area, locality); (b) the nature and extent of encroachment; (c) the direction to vacate the land, remove structures, and restore the land to its original condition; (d) the time limit for compliance; (e) consequences of non-compliance. The Collector shall record reasons in writing for passing the order of eviction.",
+      "textHindi": "यदि धारा 3 के अधीन दिए गए कारण पर विचार करने के पश्चात् और अतिक्रमणकारी को सुनवाई का अवसर देने के पश्चात्, समाहर्त्ता संतुष्ट है कि उस व्यक्ति ने लोक भूमि पर अतिक्रमण किया है, तो वह आदेश द्वारा उस व्यक्ति को भूमि खाली करने और ऐसी भूमि पर बनाए गए किसी भवन या अन्य संरचना को हटाने या बोई गई किसी फसल को आदेश में विनिर्दिष्ट समय के भीतर हटाने का निर्देश दे सकता है।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["eviction order", "vacate", "remove structure", "encroachment", "collector", "opportunity of hearing", "reasons in writing", "time limit", "compliance", "bedakhli aadesh"]
+    },
+    {
+      "sectionNumber": "5",
+      "sectionTitle": "Eviction by Force if Order Not Complied With",
+      "sectionTitleHindi": "आदेश का पालन न होने पर बलपूर्वक बेदखली",
+      "text": "If any person refuses or fails to vacate the land in compliance with the order made under Section 4 within the time specified therein, the Collector may cause such person to be evicted from the land with the help of police force and may cause any building or structure or crop to be removed, demolished, or destroyed at the expense of such person. The cost of such forcible eviction and demolition shall be recoverable as arrears of land revenue from the encroacher. The Collector shall prepare a report of eviction and submit it to the Divisional Commissioner.",
+      "textHindi": "यदि कोई व्यक्ति धारा 4 के अधीन किए गए आदेश के अनुपालन में उसमें विनिर्दिष्ट समय के भीतर भूमि खाली करने से इनकार करता है या विफल रहता है, तो समाहर्त्ता पुलिस बल की सहायता से ऐसे व्यक्ति को भूमि से बेदखल करा सकता है और ऐसे व्यक्ति के व्यय पर किसी भवन, संरचना या फसल को हटवा, तोड़वा या नष्ट करवा सकता है।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["forcible eviction", "police force", "demolition", "arrears of land revenue", "cost recovery", "eviction report", "balapoorvak bedakhli"]
+    },
+    {
+      "sectionNumber": "6",
+      "sectionTitle": "Recovery of Arrears",
+      "sectionTitleHindi": "बकाये की वसूली",
+      "text": "Any amount payable by an encroacher under this Act, including costs of eviction, demolition, or any damages, shall be recoverable as arrears of land revenue under the Bihar and Orissa Public Demands Recovery Act 1914 and the rules made thereunder. The Collector shall issue a certificate of demand and the Revenue Recovery Officer shall recover the amount accordingly. The encroacher shall also be liable to pay damages for the period of unauthorized occupation calculated at the rate prescribed by the State Government from time to time.",
+      "textHindi": "इस अधिनियम के अधीन किसी अतिक्रमणकारी द्वारा देय कोई भी राशि, जिसमें बेदखली, विध्वंस या किसी क्षतिपूर्ति की लागत शामिल है, बिहार और उड़ीसा लोक माँग वसूली अधिनियम 1914 के अधीन भू-राजस्व के बकाये के रूप में वसूली योग्य होगी।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["recovery", "arrears", "land revenue", "damages", "unauthorized occupation", "certificate of demand", "vasooli", "bakaya"]
+    },
+    {
+      "sectionNumber": "7",
+      "sectionTitle": "Appeal to Commissioner",
+      "sectionTitleHindi": "आयुक्त के समक्ष अपील",
+      "text": "Any person aggrieved by an order of eviction passed by the Collector under Section 4 may prefer an appeal to the Divisional Commissioner of the division within thirty days from the date of communication of such order. The Commissioner shall hear the appeal and pass such order as he thinks fit. No civil court shall have jurisdiction to entertain any suit or grant any injunction in respect of any matter which has been decided or is capable of being decided under this Act. The decision of the Commissioner in appeal shall be final.",
+      "textHindi": "धारा 4 के अधीन समाहर्त्ता द्वारा पारित बेदखली के आदेश से व्यथित कोई भी व्यक्ति ऐसे आदेश की संसूचना की तारीख से तीस दिनों के भीतर प्रमंडल के संभागीय आयुक्त के समक्ष अपील कर सकता है।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["appeal", "divisional commissioner", "30 days", "eviction order", "civil court bar", "injunction", "final order", "bedakhli apeel", "sambhaagiya aayukt"]
+    },
+    {
+      "sectionNumber": "9",
+      "sectionTitle": "Protection of Action in Good Faith",
+      "sectionTitleHindi": "सद्भावना में की गई कार्रवाई की रक्षा",
+      "text": "No suit or legal proceeding shall lie against any officer of the Government for anything which is done or intended to be done in good faith in pursuance of this Act. The State Government shall not be liable for any loss or damage sustained by any person by reason of anything done or intended to be done in good faith under this Act.",
+      "textHindi": "इस अधिनियम के प्रयोजन के अनुसरण में सद्भावना से किए गए या किए जाने के आशय वाले किसी भी कार्य के लिए सरकार के किसी भी अधिकारी के विरुद्ध कोई वाद या कानूनी कार्यवाही नहीं होगी।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["good faith", "protection", "government officer", "no suit", "no legal proceeding", "sadbhavna mein surakshe"]
+    },
+    {
+      "sectionNumber": "10",
+      "sectionTitle": "Penalty for Re-encroachment",
+      "sectionTitleHindi": "पुनः अतिक्रमण के लिए दंड",
+      "text": "Any person who, after having been evicted from any public land under this Act, again encroaches upon any public land shall be punishable with imprisonment for a term which may extend to one year or with fine which may extend to five thousand rupees, or with both. A Magistrate of the First Class shall try all offences under this section. The Collector shall bring such cases to the notice of the District Magistrate for criminal proceedings to be initiated.",
+      "textHindi": "कोई भी व्यक्ति जो इस अधिनियम के अधीन किसी लोक भूमि से बेदखल होने के पश्चात् पुनः किसी लोक भूमि पर अतिक्रमण करता है, एक वर्ष तक के कारावास या पाँच हजार रुपये तक के जुर्माने, या दोनों से दंडनीय होगा।",
+      "effectiveFrom": "1956-01-01",
+      "keywords": ["re-encroachment", "penalty", "imprisonment", "1 year", "fine", "magistrate", "puna atikraman saza"]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "actName": "Indian Evidence Act",
+  "actNameHindi": "भारतीय साक्ष्य अधिनियम",
+  "actYear": 1872,
+  "shortName": "Evidence Act",
+  "jurisdiction": "Bihar",
+  "actType": "central",
+  "status": "active",
+  "description": "Governs admissibility, relevancy, and weight of evidence in all Indian courts and tribunals including Revenue Courts.",
+  "officialSource": "https://indiacode.nic.in",
+  "sections": [
+    {
+      "sectionNumber": "35",
+      "sectionTitle": "Relevancy of Entry in Public Record",
+      "sectionTitleHindi": "सार्वजनिक अभिलेख में प्रविष्टि की प्रासंगिकता",
+      "text": "An entry in any public or other official book, register, or record or an electronic record stating a fact in issue or a relevant fact, made by a public servant in discharge of his official duty or by any other person in performance of a duty specially enjoined by the law of the country in which such book, register, or record is kept, is itself a relevant fact. Jamabandi (land records), revenue receipts, khasra navis, survey settlement records, and all other records maintained by Revenue Officers under the Bihar Revenue Code or the Bihar Land Records Manual are public records within the meaning of this section. Entries in Jamabandi and revenue records shall be presumptive evidence of the facts stated therein.",
+      "textHindi": "किसी सार्वजनिक या अन्य शासकीय पुस्तक, रजिस्टर, या अभिलेख में या किसी इलेक्ट्रॉनिक अभिलेख में किसी लोक सेवक द्वारा अपने शासकीय कर्तव्य के निर्वहन में या किसी अन्य व्यक्ति द्वारा ऐसे देश के कानून द्वारा विशेष रूप से निर्दिष्ट कर्तव्य के निष्पादन में की गई प्रविष्टि जो विवाद में किसी तथ्य या प्रासंगिक तथ्य को बताती है, स्वयं एक प्रासंगिक तथ्य है।",
+      "effectiveFrom": "1872-01-01",
+      "keywords": ["public record", "official record", "jamabandi", "land records", "relevant fact", "public servant", "revenue record", "official duty", "electronic record", "khasra navis", "saarkajnik abhilekh"]
+    },
+    {
+      "sectionNumber": "74",
+      "sectionTitle": "Public Documents",
+      "sectionTitleHindi": "लोक दस्तावेज़",
+      "text": "The following documents are public documents: (1) Documents forming the acts or records of: (a) the acts of the sovereign authority; (b) official bodies and tribunals; (c) public officers, legislative, judicial, and executive, whether of India or of any foreign country; (2) Public records kept in India of private documents. Revenue records including Jamabandi, khasra navis, survey records, orders of Revenue Courts, and certified copies of any public record maintained by the State Government are public documents for all purposes under this Act.",
+      "textHindi": "निम्नलिखित दस्तावेज़ लोक दस्तावेज़ हैं: (1) ऐसे दस्तावेज़ जो निम्नलिखित के कार्य या अभिलेख हैं: (क) सर्वोपरि प्राधिकरण के कार्य; (ख) शासकीय निकाय और न्यायाधिकरण; (ग) लोक अधिकारी, चाहे वे भारत के हों या किसी विदेशी देश के।",
+      "effectiveFrom": "1872-01-01",
+      "keywords": ["public document", "official record", "revenue records", "khasra", "jamabandi", "certified copy", "sovereign authority", "tribunal", "lok dastaawez"]
+    },
+    {
+      "sectionNumber": "79",
+      "sectionTitle": "Presumption as to Genuineness of Certified Copies",
+      "sectionTitleHindi": "प्रमाणित प्रतियों की प्रामाणिकता के बारे में उपधारणा",
+      "text": "The Court shall presume to be genuine every document purporting to be a certified copy of a public document. The court shall also presume that any document produced as a certified copy of any public document, or as a certified copy of any official record, is a genuine copy of such public document or official record, and that the officer who has certified the copy had authority to do so. Certified copies of Jamabandi, mutation orders, survey records, and all other revenue records issued by the competent Revenue Officer shall be presumed genuine without further proof of the original.",
+      "textHindi": "न्यायालय प्रत्येक दस्तावेज़ को जो किसी लोक दस्तावेज़ की प्रमाणित प्रतिलिपि होने का दावा करता है, प्रामाणिक मानेगा। राजस्व अभिलेखों की प्रमाणित प्रतियाँ — जमाबंदी, दाखिल-खारिज आदेश, सर्वेक्षण अभिलेख — सक्षम राजस्व अधिकारी द्वारा जारी की गई होने पर मूल का प्रमाण किए बिना प्रामाणिक मानी जाएंगी।",
+      "effectiveFrom": "1872-01-01",
+      "keywords": ["certified copy", "genuineness", "presumption", "jamabandi", "mutation order", "public document", "revenue officer", "prmaanit pratilpi"]
+    },
+    {
+      "sectionNumber": "90",
+      "sectionTitle": "Presumption as to Documents 30 Years Old",
+      "sectionTitleHindi": "30 वर्ष पुराने दस्तावेजों के बारे में उपधारणा",
+      "text": "Where any document purporting or proved to be thirty years old is produced from any custody which the court considers proper, the court may presume that the signature and every other part of such document which purports to be in the handwriting of any particular person is in that person's handwriting, and in the case of a document executed or attested, that it was duly executed and attested by the persons by whom it purports to be executed and attested. Old revenue records, settlement records, jamabandis, and survey maps that are thirty years or older and are produced from the government record rooms, collectorate offices, or any recognised archive shall be presumed to be genuine and authentic.",
+      "textHindi": "जहाँ कोई दस्तावेज़ जो तीस वर्ष पुराना होने का दावा करता है या साबित होता है, किसी ऐसी अभिरक्षा से प्रस्तुत किया जाता है जिसे न्यायालय उचित मानता है, न्यायालय उपधारणा कर सकता है कि हस्ताक्षर और दस्तावेज़ का प्रत्येक अन्य भाग जो किसी विशेष व्यक्ति की हस्तलिखि होने का दावा करता है, उस व्यक्ति की हस्तलिखि में है।",
+      "effectiveFrom": "1872-01-01",
+      "keywords": ["30 years old document", "presumption", "genuineness", "custody", "old revenue records", "settlement records", "jamabandi", "survey map", "collectorate", "archive", "30 saal purana dastaawez"]
+    },
+    {
+      "sectionNumber": "114",
+      "sectionTitle": "Court May Presume Existence of Certain Facts",
+      "sectionTitleHindi": "न्यायालय कुछ तथ्यों के अस्तित्व की उपधारणा कर सकता है",
+      "text": "The court may presume the existence of any fact which it thinks likely to have happened, regard being had to the common course of natural events, human conduct and public and private business, in their relation to the facts of the particular case. In particular, the court may presume that: (a) a man who is in possession of stolen goods soon after the theft is either the thief or has received the goods knowing them to be stolen; (b) an accomplice is unworthy of credit, unless he is corroborated in material particulars; (c) a bill of exchange, accepted or endorsed, was accepted or endorsed for good consideration; (d) a thing or state of things which has been shown to be in existence within a period shorter than that within which such things or states of things usually cease to exist, is still in existence; (e) judicial and official acts have been regularly performed; (f) the common course of business has been followed in particular cases. For Revenue Courts: an entry in the Jamabandi regularly maintained by government officials is presumed to correctly record the actual state of affairs at the time of recording.",
+      "textHindi": "न्यायालय किसी ऐसे तथ्य के अस्तित्व की उपधारणा कर सकता है जिसके घटित होने की संभावना वह समझता है, प्राकृतिक घटनाओं, मानव आचरण और सार्वजनिक तथा निजी व्यवसाय की सामान्य प्रक्रिया को ध्यान में रखते हुए।",
+      "effectiveFrom": "1872-01-01",
+      "keywords": ["court presumption", "natural events", "judicial acts", "business course", "jamabandi entry", "regular performance", "official acts", "Section 114", "updharna"]
+    }
+  ]
+}

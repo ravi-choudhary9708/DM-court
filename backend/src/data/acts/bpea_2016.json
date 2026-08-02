@@ -1,0 +1,85 @@
+{
+  "actName": "Bihar Prohibition and Excise Act",
+  "actNameHindi": "बिहार निषेध एवं उत्पाद शुल्क अधिनियम",
+  "actYear": 2016,
+  "shortName": "BPEA 2016",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "Provides for total prohibition of liquor in Bihar, seizure and confiscation of vehicles and premises, and powers of Collector/DM in excise matters.",
+  "officialSource": "https://state.bihar.gov.in/excise",
+  "sections": [
+    {
+      "sectionNumber": "4",
+      "sectionTitle": "Total Prohibition of Liquor in Bihar",
+      "sectionTitleHindi": "बिहार में मद्य पर पूर्ण प्रतिबंध",
+      "text": "No person shall produce, bottle, distribute, transport, collect, store, possess, sell by wholesale or retail, export out of, or import into, the State of Bihar any intoxicant in any part of Bihar except as otherwise provided in this Act or except under and in conformity with the terms and conditions of a licence, permit, pass or authorisation duly granted under this Act. 'Intoxicant' for the purposes of this section means and includes all forms of liquor, country liquor, beer, wine, spirits, and any substance which if consumed produces intoxication. The prohibition shall extend to all public and private premises, vehicles, and places within the territorial limits of the State of Bihar.",
+      "textHindi": "कोई भी व्यक्ति बिहार राज्य के किसी भी भाग में किसी नशीली वस्तु का उत्पादन, बोतलबंद करना, वितरण, परिवहन, संग्रह, भंडारण, कब्जा, थोक या खुदरा बिक्री, निर्यात या आयात तब तक नहीं करेगा जब तक कि इस अधिनियम में अन्यथा उपबंधित न हो या इस अधिनियम के अधीन विधिवत् दी गई अनुज्ञप्ति, अनुज्ञा, पास या प्राधिकरण के तहत न हो।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["prohibition", "liquor", "intoxicant", "Bihar", "manufacture", "sale", "possession", "transport", "country liquor", "total ban", "nishedh", "sharab", "madya nishedh"]
+    },
+    {
+      "sectionNumber": "37",
+      "sectionTitle": "Powers of Search and Seizure",
+      "sectionTitleHindi": "तलाशी और जब्ती की शक्तियाँ",
+      "text": "Any officer of or above the rank of an Inspector, any Revenue Officer not below the rank of Circle Officer, or any police officer not below the rank of Sub-Inspector, authorised by the Collector or the Excise Commissioner in this behalf, may: (a) enter and search any premises, vehicle, vessel, or place where he has reason to believe that any intoxicant is manufactured, sold, stored, or possessed in violation of this Act; (b) seize any intoxicant found therein along with vessels, utensils, implements, apparatus, or any vehicle used in the manufacture, sale, transport, or storage of such intoxicant; (c) detain and search any person whom he has reason to believe has committed an offence under this Act. All articles seized shall be produced before the Collector within 24 hours of seizure with a panchnama of seizure.",
+      "textHindi": "निरीक्षक या उससे उच्च पद के कोई अधिकारी, अंचलाधिकारी के पद से नीचे नहीं के राजस्व अधिकारी, या उप-निरीक्षक के पद से नीचे नहीं के पुलिस अधिकारी, समाहर्त्ता या उत्पाद आयुक्त द्वारा इस संबंध में प्राधिकृत: (क) किसी परिसर, वाहन, जहाज, या स्थान में प्रवेश और तलाशी ले सकते हैं।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["search", "seizure", "inspector", "circle officer", "police", "intoxicant", "vehicle seizure", "panchnama", "24 hours", "collector", "taashi", "jabti"]
+    },
+    {
+      "sectionNumber": "53",
+      "sectionTitle": "Punishment for Consumption of Liquor",
+      "sectionTitleHindi": "मद्य के सेवन के लिए दंड",
+      "text": "Whoever consumes any intoxicating liquor within the State of Bihar shall be punished with imprisonment for a term which shall not be less than one year but which may extend to five years, and with fine which shall not be less than one lakh rupees but which may extend to ten lakh rupees, or both. Where such consumption is on a second or subsequent occasion, the punishment shall be imprisonment for a term which shall not be less than five years but may extend to ten years, and with fine which shall not be less than ten lakh rupees but which may extend to one crore rupees. Where any person found consuming liquor at any public place, the punishment shall be enhanced by half. Consuming liquor in private premises shall be punishable with imprisonment up to five years and fine up to five lakh rupees.",
+      "textHindi": "जो कोई बिहार राज्य के भीतर किसी नशीली शराब का सेवन करता है, उसे एक वर्ष से कम नहीं, किंतु पाँच वर्ष तक के कारावास से दंडित किया जाएगा और एक लाख रुपये से कम नहीं, किंतु दस लाख रुपये तक के जुर्माने से, या दोनों से।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["consumption", "liquor", "punishment", "1 year", "5 years", "fine", "one lakh", "second offence", "10 years", "public place", "sharab sevan saza"]
+    },
+    {
+      "sectionNumber": "54",
+      "sectionTitle": "Punishment for Manufacturing, Selling, Possession of Liquor",
+      "sectionTitleHindi": "शराब के निर्माण, बिक्री, कब्जे के लिए दंड",
+      "text": "Whoever manufactures, sells, or possesses any intoxicant in violation of this Act shall be punished with imprisonment for a term which shall not be less than five years but which may extend to ten years, and with fine which shall not be less than five lakh rupees but which may extend to fifty lakh rupees. Where any person is found manufacturing illicit liquor (Desi Daroo / Country liquor) or in possession of materials for manufacturing illicit liquor, the punishment shall not be less than ten years and may extend to life imprisonment. The minimum sentence shall not be suspended or converted into fine.",
+      "textHindi": "जो कोई इस अधिनियम के उल्लंघन में किसी नशीली वस्तु का निर्माण, बिक्री, या कब्जा करता है, उसे पाँच वर्ष से कम नहीं, किंतु दस वर्ष तक के कारावास से दंडित किया जाएगा और पाँच लाख रुपये से कम नहीं, किंतु पचास लाख रुपये तक के जुर्माने से।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["manufacturing liquor", "selling", "possession", "5 years", "10 years", "life imprisonment", "fine", "illicit liquor", "desi daru", "sharab nirman saza"]
+    },
+    {
+      "sectionNumber": "56",
+      "sectionTitle": "Confiscation of Vehicles Used for Transport of Liquor",
+      "sectionTitleHindi": "शराब के परिवहन के लिए उपयोग किए जाने वाले वाहनों की जब्ती",
+      "text": "Where any vehicle, vessel, animal, or other conveyance is used in the commission of any offence under this Act involving transportation of any intoxicant, the Collector of the district may, after giving the owner of such vehicle, vessel, animal, or other conveyance an opportunity to show cause, order its confiscation. The Collector shall cause a notice to be served on the owner of the vehicle asking him to show cause within fifteen days why the vehicle should not be confiscated. After hearing the cause shown, the Collector may: (a) pass an order of confiscation; or (b) release the vehicle on payment of fine as may be determined. The confiscated vehicle or other conveyance shall vest in the State Government. The owner of the vehicle may appeal against the order of confiscation to the Excise Commissioner within thirty days.",
+      "textHindi": "जहाँ कोई वाहन, पोत, पशु, या अन्य वाहन नशीली वस्तु के परिवहन से संबंधित इस अधिनियम के अधीन किसी अपराध के कमीशन में उपयोग किया जाता है, तो जिले का समाहर्त्ता ऐसे वाहन, पोत, पशु, या अन्य वाहन के स्वामी को कारण बताने का अवसर देने के पश्चात् उसकी जब्ती का आदेश दे सकता है।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["confiscation of vehicle", "transport of liquor", "collector", "show cause", "15 days", "excise commissioner", "appeal", "30 days", "state government", "vaahan jabti", "musadra"]
+    },
+    {
+      "sectionNumber": "58",
+      "sectionTitle": "Appeal Against Confiscation Orders",
+      "sectionTitleHindi": "जब्ती आदेशों के विरुद्ध अपील",
+      "text": "Any person aggrieved by an order of confiscation of vehicle or property under Section 56 may prefer an appeal to the Excise Commissioner of Bihar within thirty days of the communication of such order. The Excise Commissioner, after hearing both parties, may confirm, vary, or reverse the order of confiscation. The decision of the Excise Commissioner in appeal shall be final. Any person further aggrieved may file a writ petition before the High Court of Patna under Articles 226/227 of the Constitution. No civil suit shall lie to challenge any order of confiscation passed under this Act.",
+      "textHindi": "धारा 56 के अधीन वाहन या संपत्ति की जब्ती के आदेश से व्यथित कोई भी व्यक्ति ऐसे आदेश की संसूचना की तारीख से तीस दिनों के भीतर बिहार के उत्पाद आयुक्त के समक्ष अपील कर सकता है।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["appeal", "confiscation order", "excise commissioner", "30 days", "vehicle confiscation appeal", "High Court Patna", "writ petition", "jabti apeel"]
+    },
+    {
+      "sectionNumber": "60",
+      "sectionTitle": "Presumption as to Commission of Offence",
+      "sectionTitleHindi": "अपराध के कमीशन के बारे में उपधारणा",
+      "text": "In any prosecution under this Act, if it is proved that any intoxicant was found at any premises or in possession of any person, or any vehicle with intoxicant was intercepted, it shall be presumed, until the contrary is proved, that the person in whose premises or possession such intoxicant was found, or the owner or driver of the vehicle intercepted, has committed an offence under this Act. The burden of proving the contrary shall lie on the accused. The presumption under this section shall not be rebutted merely on the ground that the accused was not aware of the intoxicant.",
+      "textHindi": "इस अधिनियम के अधीन किसी अभियोजन में, यदि यह साबित हो जाता है कि किसी नशीली वस्तु को किसी परिसर में या किसी व्यक्ति के कब्जे में पाया गया, या नशीली वस्तु सहित कोई वाहन रोका गया, तो यह उपधारणा होगी, जब तक कि विपरीत साबित न हो, कि उस व्यक्ति ने इस अधिनियम के अधीन अपराध किया है।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["presumption", "offence", "burden of proof", "accused", "possession", "vehicle", "intoxicant found", "Section 60", "updharna", "sboot ka bojh"]
+    },
+    {
+      "sectionNumber": "63",
+      "sectionTitle": "Power of Collector to Seal and Close Premises",
+      "sectionTitleHindi": "परिसर को सील करने और बंद करने की समाहर्त्ता की शक्ति",
+      "text": "Where the Collector is satisfied, after due inquiry and giving the owner or occupier an opportunity to show cause, that any premises has been used for the manufacture, storage, or sale of intoxicants in violation of this Act, the Collector may by order direct: (a) closure of such premises; (b) sealing of such premises; (c) removal of all intoxicants and equipment from such premises. The order of the Collector shall take immediate effect. The owner or occupier may appeal to the Excise Commissioner within thirty days. Any person who breaks open any sealed premises or removes any seal affixed by the Collector shall be punishable with imprisonment for a term which may extend to three years.",
+      "textHindi": "जहाँ समाहर्त्ता उचित जाँच के बाद और स्वामी या अधिभोगी को कारण बताने का अवसर देने के पश्चात् संतुष्ट है कि किसी परिसर का उपयोग इस अधिनियम के उल्लंघन में नशीली वस्तुओं के निर्माण, भंडारण या बिक्री के लिए किया गया है, तो समाहर्त्ता आदेश द्वारा निर्देश दे सकता है।",
+      "effectiveFrom": "2016-04-05",
+      "keywords": ["seal premises", "close premises", "collector", "show cause", "manufacturing liquor", "excise commissioner", "appeal", "30 days", "3 years", "breaking seal", "seel dukan", "kisaan paribandh"]
+    }
+  ]
+}

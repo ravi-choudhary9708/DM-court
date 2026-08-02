@@ -1,0 +1,85 @@
+{
+  "actName": "Arms Act",
+  "actNameHindi": "शस्त्र अधिनियम",
+  "actYear": 1959,
+  "shortName": "Arms Act",
+  "jurisdiction": "Bihar",
+  "actType": "central",
+  "status": "active",
+  "description": "Regulates acquisition, possession, manufacture, sale, import, export, and transport of arms and ammunition. District Magistrates are the primary licensing authority.",
+  "officialSource": "https://indiacode.nic.in",
+  "sections": [
+    {
+      "sectionNumber": "2",
+      "sectionTitle": "Definitions — Arms, Firearms, Ammunition",
+      "sectionTitleHindi": "परिभाषाएँ — शस्त्र, आग्नेयास्त्र, गोला-बारूद",
+      "text": "In this Act, unless the context otherwise requires: 'arms' means articles of any description designed or adapted as weapons for offence or defence, and includes firearms, sharp-edged and other deadly weapons; 'ammunition' means ammunition for any firearm, and includes grenades, bombs and other like missiles, whether capable of use with a firearm or not; 'firearms' means arms of any description designed or adapted to discharge a projectile or projectiles of any kind by the action of any explosive or other form of energy, and includes air-guns, air-pistols and such other weapons of which the barrel length does not exceed thirty centimetres; 'licensing authority' means the District Magistrate of the district where the applicant resides or, in the case of a non-resident Indian, the district where the arms are to be kept or used.",
+      "textHindi": "इस अधिनियम में, जब तक संदर्भ से अन्यथा अपेक्षित न हो: 'शस्त्र' से आक्रमण या प्रतिरक्षा के लिए हथियार के रूप में परिकल्पित या अनुकूलित किसी भी विवरण की वस्तुएं अभिप्रेत हैं जिनमें आग्नेयास्त्र, तीखे-धारदार और अन्य घातक हथियार शामिल हैं; 'अनुज्ञप्ति प्राधिकरण' से जिले का जिला मजिस्ट्रेट अभिप्रेत है।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["arms", "firearms", "ammunition", "air gun", "definition", "licensing authority", "district magistrate", "shastra", "aagneyastra"]
+    },
+    {
+      "sectionNumber": "3",
+      "sectionTitle": "Licence for Acquisition and Possession of Firearms and Ammunition",
+      "sectionTitleHindi": "आग्नेयास्त्र और गोला-बारूद के अधिग्रहण और कब्जे के लिए अनुज्ञप्ति",
+      "text": "No person shall acquire, have in his possession, or carry any firearm or ammunition unless he holds a licence granted under this Act and unless the firearm or ammunition is of the description specified in the licence. A person holding a licence under Section 13 shall be entitled to have in his possession and carry: (a) the firearm(s) of the description specified in the licence, in the area or areas specified therein; (b) ammunition in quantities not exceeding the amounts specified in the licence. The licence shall specify the period of its validity which shall not ordinarily exceed three years, and may be renewed for further periods not exceeding three years at a time.",
+      "textHindi": "कोई भी व्यक्ति किसी आग्नेयास्त्र या गोला-बारूद का अधिग्रहण, अधिकार, या वहन तब तक नहीं करेगा जब तक कि वह इस अधिनियम के अधीन दी गई अनुज्ञप्ति धारण नहीं करता और जब तक आग्नेयास्त्र या गोला-बारूद अनुज्ञप्ति में विनिर्दिष्ट विवरण का न हो।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["licence", "acquisition", "possession", "firearms", "Section 3", "validity", "three years", "renewal", "anugya-pati", "shastra rakhna"]
+    },
+    {
+      "sectionNumber": "13",
+      "sectionTitle": "Grant of Licence — Powers of District Magistrate",
+      "sectionTitleHindi": "अनुज्ञप्ति का अनुदान — जिला मजिस्ट्रेट की शक्तियाँ",
+      "text": "The District Magistrate shall be the licensing authority for the purposes of this Act within his district. On receipt of an application for grant or renewal of a licence, the District Magistrate shall: (a) cause enquiry to be made through the police about the antecedents, character, and reputation of the applicant; (b) verify whether the need claimed by the applicant is genuine; (c) consider whether the grant of the licence is in the public interest; (d) ensure that the arms to be licensed are of a type permissible under the law and the Arms Rules; (e) consider any objections raised by the concerned Police Officer or any authority. The District Magistrate may impose such conditions on the licence as he thinks necessary, including conditions as to the area in which the arms may be carried, the purpose for which they may be used, and safe custody requirements.",
+      "textHindi": "जिला मजिस्ट्रेट इस अधिनियम के प्रयोजनों के लिए अपने जिले के भीतर अनुज्ञप्ति प्राधिकरण होगा। अनुज्ञप्ति के अनुदान या नवीकरण के लिए आवेदन प्राप्त होने पर, जिला मजिस्ट्रेट आवेदक के पूर्ववृत्त, चरित्र और प्रतिष्ठा के बारे में पुलिस के माध्यम से जाँच करवाएगा।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["grant of licence", "district magistrate", "DM", "police enquiry", "antecedents", "public interest", "conditions", "renewal", "arms licence grant", "anugya-pati anudan"]
+    },
+    {
+      "sectionNumber": "14",
+      "sectionTitle": "Refusal of Licences",
+      "sectionTitleHindi": "अनुज्ञप्तियों का अस्वीकरण",
+      "text": "Notwithstanding anything in Section 13, the licensing authority shall refuse to grant a licence if: (a) the applicant is prohibited by the provisions of this Act or any other law from acquiring, having in his possession, or carrying any arms or ammunition; (b) the licensing authority has reason to believe that the applicant is of unsound mind; (c) the licensing authority has reason to believe that the applicant has been sentenced to a term of imprisonment exceeding two years, or has been ordered to execute a bond for keeping the peace or for good behaviour; (d) the licensing authority has reason to believe that the applicant has a history of violence or is likely to use the arms or ammunition against the public order; (e) the licensing authority considers that it is not in the public interest to grant the licence. The licensing authority shall communicate the reasons for refusal in writing to the applicant.",
+      "textHindi": "धारा 13 में किसी बात के होते हुए भी, अनुज्ञप्ति प्राधिकरण अनुज्ञप्ति देने से इनकार कर देगा यदि: (क) आवेदक इस अधिनियम या किसी अन्य कानून के प्रावधानों द्वारा किसी शस्त्र या गोला-बारूद का अधिग्रहण, कब्जा या वहन करने से प्रतिबंधित है; (ख) अनुज्ञप्ति प्राधिकरण को विश्वास करने का कारण है कि आवेदक का मानसिक संतुलन ठीक नहीं है।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["refusal of licence", "prohibited person", "unsound mind", "imprisonment", "public order", "violence history", "reasons in writing", "Section 14", "anugya-pati asvikaran"]
+    },
+    {
+      "sectionNumber": "17",
+      "sectionTitle": "Suspension and Revocation of Licences",
+      "sectionTitleHindi": "अनुज्ञप्तियों का निलम्बन और प्रतिसंहरण",
+      "text": "The District Magistrate or any other licensing authority may suspend or revoke a licence granted under this Act if: (a) the licence was obtained by fraud, misrepresentation, or concealment of any material fact; (b) the holder of the licence has been convicted of any offence under this Act; (c) the licensing authority considers that the holder of the licence is likely to use the arms in a manner dangerous to the public peace or to the security of the State; (d) the holder of the licence fails to comply with the conditions of the licence; (e) for any other reason the licensing authority considers it necessary in the interest of public safety to revoke the licence. Before suspending or revoking a licence, the licensing authority shall give the holder of the licence a reasonable opportunity of showing cause against the proposed suspension or revocation. The order of suspension or revocation shall be communicated to the licence holder in writing with reasons.",
+      "textHindi": "जिला मजिस्ट्रेट या कोई अन्य अनुज्ञप्ति प्राधिकरण इस अधिनियम के अधीन दी गई अनुज्ञप्ति को निलंबित या प्रतिसंहृत कर सकता है यदि: (क) अनुज्ञप्ति धोखाधड़ी, गलत बयानबाजी, या किसी भौतिक तथ्य को छुपाकर प्राप्त की गई थी; (ख) अनुज्ञप्ति धारक को इस अधिनियम के अधीन किसी अपराध का दोषी ठहराया गया है।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["suspension", "revocation", "licence", "district magistrate", "fraud", "public safety", "show cause", "Section 17", "anugya-pati nilamban", "anugya-pati pratisanharan"]
+    },
+    {
+      "sectionNumber": "18",
+      "sectionTitle": "Appeals",
+      "sectionTitleHindi": "अपीलें",
+      "text": "Any person aggrieved by an order of the licensing authority refusing to grant or renew a licence, or suspending or revoking a licence, may prefer an appeal against such order: (a) if the order was made by a Magistrate of the First Class, to the District Magistrate; (b) if the order was made by the District Magistrate, to the State Government; (c) if the order was made by the State Government, to the High Court by way of writ petition. An appeal shall be preferred within thirty days from the date of communication of the order. The appellate authority may, after hearing the parties, confirm, vary, or reverse the order appealed against. The order of the appellate authority shall be final subject to revision by the High Court.",
+      "textHindi": "अनुज्ञप्ति प्राधिकरण के आदेश से व्यथित कोई भी व्यक्ति अपील कर सकता है: (क) यदि आदेश प्रथम श्रेणी के मजिस्ट्रेट द्वारा पारित किया गया था, तो जिला मजिस्ट्रेट के पास; (ख) यदि आदेश जिला मजिस्ट्रेट द्वारा पारित किया गया था, तो राज्य सरकार के पास; (ग) यदि आदेश राज्य सरकार द्वारा पारित किया गया था, तो रिट याचिका के माध्यम से उच्च न्यायालय में।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["appeal", "arms licence", "district magistrate", "state government", "high court", "30 days", "writ petition", "appellate authority", "Section 18", "apeel shastra"]
+    },
+    {
+      "sectionNumber": "25",
+      "sectionTitle": "Punishment for Certain Offences",
+      "sectionTitleHindi": "कुछ अपराधों के लिए दंड",
+      "text": "Whoever acquires, has in his possession, or carries any firearm or ammunition in contravention of Section 3 shall be punishable with imprisonment for a term which shall not be less than three years but which may extend to seven years and shall also be liable to fine. Where such contravention involves arms of a category prescribed by the Central Government as being most lethal or dangerous, the term of imprisonment shall not be less than seven years and may extend to life imprisonment. Whoever manufactures, converts, repairs, tests, proves, or offers for sale or transfer any arms or ammunition in contravention of this Act shall be punishable with imprisonment for a term which shall not be less than three years but may extend to seven years and shall also be liable to fine.",
+      "textHindi": "जो कोई भी धारा 3 के उल्लंघन में किसी आग्नेयास्त्र या गोला-बारूद का अधिग्रहण, कब्जा, या वहन करता है, उसे तीन वर्ष से कम नहीं, किंतु सात वर्ष तक के कारावास से दंडित किया जाएगा और वह जुर्माने के लिए भी दायी होगा।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["punishment", "possession without licence", "3 years", "7 years", "imprisonment", "fine", "manufacture", "illegal arms", "Section 25", "anudharit shastra saza"]
+    },
+    {
+      "sectionNumber": "27",
+      "sectionTitle": "Punishment for Using Arms in Certain Cases",
+      "sectionTitleHindi": "कुछ मामलों में शस्त्रों के उपयोग के लिए दंड",
+      "text": "Whoever uses any arms or ammunition in contravention of Section 5 in such a manner as to endanger human life or safety shall be punishable with imprisonment for a term which shall not be less than three years but may extend to seven years and shall also be liable to fine. Whoever uses any firearm in such a manner as to endanger the life of another shall be punishable with imprisonment for life or with imprisonment for a term which may extend to ten years and shall also be liable to fine. Nothing in this section shall affect the right of the accused to raise any defence in any criminal prosecution.",
+      "textHindi": "जो कोई भी धारा 5 के उल्लंघन में किसी शस्त्र या गोला-बारूद का उपयोग इस प्रकार करता है जिससे मानव जीवन या सुरक्षा को खतरा हो, उसे तीन वर्ष से कम नहीं, किंतु सात वर्ष तक के कारावास से दंडित किया जाएगा और वह जुर्माने के लिए भी दायी होगा।",
+      "effectiveFrom": "1959-01-01",
+      "keywords": ["using arms", "endanger life", "3 years", "7 years", "life imprisonment", "10 years", "fine", "Section 27", "shastra upyog saza"]
+    }
+  ]
+}

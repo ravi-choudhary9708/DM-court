@@ -1,0 +1,85 @@
+{
+  "actName": "Bihar Revenue Code",
+  "actNameHindi": "बिहार राजस्व संहिता",
+  "actYear": 2011,
+  "shortName": "BRC 2011",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "Consolidates and amends laws relating to land, land records, revenue administration, and mutation in Bihar. Replaces the earlier Bihar Tenancy Act provisions on revenue.",
+  "officialSource": "https://state.bihar.gov.in/revenue",
+  "sections": [
+    {
+      "sectionNumber": "3",
+      "sectionTitle": "Hierarchy of Revenue Officers",
+      "sectionTitleHindi": "राजस्व अधिकारियों का पदक्रम",
+      "text": "For the purposes of this Code, the Revenue Officers shall be in the following hierarchical order: (1) Collector (District Magistrate) — the highest Revenue Authority in the district; (2) Additional Collector; (3) Sub-Divisional Officer (SDO); (4) Revenue Sub-Divisional Officer; (5) District Land Reforms Deputy Collector (DLRDC); (6) Anchal Adhikari (Circle Officer); (7) Revenue Inspector (RI); (8) Kanungo; (9) Amin. Each Revenue Officer shall have original, appellate, or revisional jurisdiction as prescribed under this Code. The Collector shall be the head of revenue administration of the district and shall supervise and control all Revenue Officers in his district.",
+      "textHindi": "इस संहिता के प्रयोजनों के लिए, राजस्व अधिकारी निम्नलिखित पदानुक्रमित क्रम में होंगे: (1) समाहर्त्ता (जिला पदाधिकारी) — जिले में सर्वोच्च राजस्व प्राधिकरण; (2) अपर समाहर्त्ता; (3) अनुमंडलाधिकारी (SDO); (4) राजस्व उप-प्रमंडल अधिकारी; (5) जिला भूमि सुधार उप-समाहर्त्ता (DLRDC); (6) अंचलाधिकारी (Circle Officer); (7) राजस्व निरीक्षक (RI); (8) कानूनगो; (9) अमीन।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["revenue officer hierarchy", "collector", "district magistrate", "SDO", "circle officer", "anchal adhikari", "kanungo", "amin", "rajaswa adhikari shreni"]
+    },
+    {
+      "sectionNumber": "20",
+      "sectionTitle": "Maintenance of Land Records — Jamabandi",
+      "sectionTitleHindi": "भूमि अभिलेखों का रखरखाव — जमाबंदी",
+      "text": "Every Revenue Officer in charge of a revenue circle shall maintain and keep up-to-date the record of rights (Jamabandi) for all land within his circle. The Jamabandi shall record the following particulars for each holding: (a) name of the raiyat or occupant; (b) name of the village (gram), thana number, khata number, and khesra number; (c) area of the land in each khesra; (d) nature of the land (agricultural, homestead, wasteland, forest, etc.); (e) nature of the right held (raiyati, bakasht, sarkari, etc.); (f) amount of land revenue payable. The Jamabandi shall be a public document and copies thereof shall be available to any person on payment of prescribed fees. The Jamabandi shall be reviewed and corrected at periodic intervals not exceeding five years.",
+      "textHindi": "प्रत्येक राजस्व अंचल का प्रभारी राजस्व अधिकारी अपने अंचल के भीतर सभी भूमि के अधिकार-अभिलेख (जमाबंदी) को बनाए रखेगा और अद्यतन रखेगा। जमाबंदी प्रत्येक जोत के लिए निम्नलिखित विशेष बातें अभिलिखित करेगी: (क) रैयत या अधिभोगी का नाम; (ख) गाँव का नाम, थाना संख्या, खाता संख्या, और खेसरा संख्या।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["jamabandi", "land records", "khata", "khesra", "raiyat", "village", "thana", "area", "land revenue", "public document", "bhumi abhilekh"]
+    },
+    {
+      "sectionNumber": "114",
+      "sectionTitle": "Mutation — Dakhil Kharij",
+      "sectionTitleHindi": "दाखिल-खारिज",
+      "text": "When any person becomes entitled to occupy land by reason of inheritance, purchase, gift, exchange, partition, court decree, or otherwise, he shall apply to the Revenue Officer for mutation of his name in the record of rights within 90 days of acquiring such right. On receipt of such application: (1) The Revenue Officer shall issue notice to all interested parties and hear them; (2) After considering the evidence and documents, the Revenue Officer shall pass a speaking order; (3) If mutation is allowed, the new name shall be entered in the Jamabandi and the old entry modified; (4) If mutation is rejected, reasons shall be recorded in writing. An appeal against a mutation order shall lie to the Sub-Divisional Officer within 30 days. A second appeal shall lie to the Additional Collector within 30 days of the SDO's order.",
+      "textHindi": "जब कोई व्यक्ति उत्तराधिकार, क्रय, दान, विनिमय, विभाजन, न्यायालय के डिक्री या अन्यथा के कारण भूमि अधिभोग का हकदार बनता है, तो वह ऐसा अधिकार प्राप्त करने के 90 दिनों के भीतर अधिकार-अभिलेख में अपना नाम दर्ज कराने के लिए राजस्व अधिकारी को आवेदन करेगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["mutation", "dakhil kharij", "90 days", "revenue officer", "inheritance", "purchase", "gift", "appeal", "SDO", "additional collector", "land records entry"]
+    },
+    {
+      "sectionNumber": "115",
+      "sectionTitle": "Procedure for Mutation Inquiry",
+      "sectionTitleHindi": "दाखिल-खारिज जाँच की प्रक्रिया",
+      "text": "On receipt of an application for mutation, the Revenue Officer shall: (1) Register the application and assign a unique application number; (2) Issue notice to all persons who may have an interest in the land, including the recorded raiyat in the Jamabandi; (3) Post notices at the village notice board and gram panchayat; (4) Fix a date for hearing within thirty days; (5) At the hearing, examine documents, hear witnesses, and inspect the site if necessary; (6) Record all evidence and proceed to a decision. The Revenue Officer shall record his reasons in writing and shall cite the documents and evidence relied upon. All mutation orders shall be made available online on the Bihar Land Records portal within seven days.",
+      "textHindi": "दाखिल-खारिज के आवेदन की प्राप्ति पर, राजस्व अधिकारी: (1) आवेदन पंजीकृत करेगा; (2) भूमि में हित रखने वाले सभी व्यक्तियों को नोटिस जारी करेगा; (3) ग्राम सूचना पट और ग्राम पंचायत पर नोटिस चस्पा करेगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["mutation inquiry", "notice", "hearing", "30 days", "evidence", "witnesses", "online portal", "Bihar land records", "dakhil kharij procedure"]
+    },
+    {
+      "sectionNumber": "118",
+      "sectionTitle": "Appeal Against Mutation Order to DM",
+      "sectionTitleHindi": "जिला पदाधिकारी के समक्ष दाखिल-खारिज आदेश के विरुद्ध अपील",
+      "text": "Any person aggrieved by a second appellate order of the Additional Collector regarding mutation may prefer a revision to the Collector (District Magistrate) of the district within thirty days of such order. The Collector shall: (a) examine whether the order of the Additional Collector is in accordance with law; (b) issue notice to opposite parties and hear them; (c) call for and examine all revenue records and documents; (d) pass a reasoned order confirming, modifying, or setting aside the order of the Additional Collector. The order of the Collector on revision shall be final and binding on all parties. Any further challenge may be made before the Patna High Court by way of writ petition.",
+      "textHindi": "दाखिल-खारिज के संबंध में अपर समाहर्त्ता के द्वितीय अपीलीय आदेश से व्यथित कोई भी व्यक्ति ऐसे आदेश की तारीख से तीस दिनों के भीतर जिले के समाहर्त्ता (जिला पदाधिकारी) के समक्ष पुनरीक्षण कर सकता है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["appeal to DM", "collector", "revision", "mutation order", "additional collector", "30 days", "Patna High Court", "writ petition", "Section 118", "DM apeel dakhil kharij"]
+    },
+    {
+      "sectionNumber": "126",
+      "sectionTitle": "Survey and Settlement Operations",
+      "sectionTitleHindi": "सर्वेक्षण और बंदोबस्त कार्यवाहियाँ",
+      "text": "The State Government may order survey and settlement operations to be carried out in any area of Bihar. During survey operations: (a) All holdings, plots, and boundaries shall be surveyed and mapped; (b) Rights of all raiyats, government, and other land owners shall be determined; (c) A new record of rights (Khatiyan) shall be prepared; (d) Disputes as to boundary and possession shall be decided by the Settlement Officer during settlement. The final record of rights prepared after settlement shall be the conclusive evidence of title for the areas covered. Any person aggrieved by the settlement record may file an objection before the Settlement Officer and thereafter appeal to the Commissioner.",
+      "textHindi": "राज्य सरकार बिहार के किसी क्षेत्र में सर्वेक्षण और बंदोबस्त कार्यवाहियाँ करने का आदेश दे सकती है। सर्वेक्षण कार्यवाहियों के दौरान सभी जोतों, भूखंडों और सीमाओं का सर्वेक्षण और मानचित्रण किया जाएगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["survey", "settlement", "khatiyan", "record of rights", "boundary", "dispute", "settlement officer", "commissioner", "conclusive evidence", "sarvekshan"]
+    },
+    {
+      "sectionNumber": "132",
+      "sectionTitle": "Recovery of Land Revenue",
+      "sectionTitleHindi": "भू-राजस्व की वसूली",
+      "text": "Land revenue shall be recoverable as follows by the Collector: (a) By attachment and sale of the defaulter's moveable property; (b) By attachment of the holding; (c) By arresting the defaulter and detaining him in custody; (d) By appointing a receiver for the management of the holding. The Collector shall first serve a demand notice on the defaulter requiring payment of the arrear within fifteen days. If not paid within 15 days, the Collector may proceed with recovery. Any person against whom a recovery proceeding is initiated may file an objection before the Collector and if overruled, may appeal to the Commissioner within thirty days.",
+      "textHindi": "भू-राजस्व समाहर्त्ता द्वारा निम्नलिखित तरीके से वसूल किया जाएगा: (क) बकाएदार की जंगम संपत्ति की कुर्की और बिक्री द्वारा; (ख) जोत की कुर्की द्वारा; (ग) बकाएदार को गिरफ्तार करके और हिरासत में रखकर।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["land revenue recovery", "demand notice", "15 days", "collector", "attachment", "moveable property", "holding", "arrest", "receiver", "bhoo-rajaswa vasooli"]
+    },
+    {
+      "sectionNumber": "140",
+      "sectionTitle": "Partition of Holdings",
+      "sectionTitleHindi": "जोतों का विभाजन",
+      "text": "Any raiyat who holds land jointly with other raiyats or co-sharers may apply for partition of the joint holding. On receipt of such application, the Revenue Officer shall: (1) Issue notice to all co-sharers; (2) Conduct an inquiry and determine each co-sharer's share; (3) If all parties agree, pass a consent order of partition; (4) If parties disagree, conduct a formal partition by dividing the land in proportion to the shares of each party. A formal partition shall be carried out by the Amin/Kanungo under the supervision of the Revenue Inspector. The partition record shall be entered in the Jamabandi and each party shall receive a separate Khata after partition.",
+      "textHindi": "कोई भी रैयत जो अन्य रैयतों या सह-हिस्सेदारों के साथ संयुक्त रूप से भूमि धारण करता है, संयुक्त जोत के विभाजन के लिए आवेदन कर सकता है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["partition", "joint holding", "co-sharer", "revenue officer", "consent partition", "formal partition", "amin", "kanungo", "khata", "jamabandi", "vibhajan"]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "actName": "Bihar Land Reforms Act",
+  "actNameHindi": "बिहार भूमि सुधार अधिनियम",
+  "actYear": 1950,
+  "shortName": "BLR Act",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "An Act to provide for the acquisition of estates and tenures in Bihar and for other matters connected therewith.",
+  "officialSource": "https://state.bihar.gov.in/revenue",
+  "sections": [
+    {
+      "sectionNumber": "4",
+      "sectionTitle": "Vesting of Estates in State",
+      "sectionTitleHindi": "राज्य में सम्पदा का निहित होना",
+      "text": "With effect from such date as the State Government may, by notification in the Official Gazette, appoint in this behalf (hereinafter called 'the date of vesting'), every estate and the rights of every proprietor of such estate shall vest in the State of Bihar free from all encumbrances. All proprietary rights of proprietors, tenure-holders, and intermediaries in land shall upon vesting absolutely vest in the State Government free from all encumbrances. After vesting, all lands comprised in estates, including homestead land, cultivated or uncultivated land, forests, fisheries, ferries, and all other benefits arising from the land shall vest in the State Government.",
+      "textHindi": "राज्य सरकार जिस तारीख को राजपत्र में अधिसूचना द्वारा इस संबंध में नियुक्त करे (जिसे इसमें 'निहित होने की तारीख' कहा गया है), उस तारीख से प्रत्येक सम्पदा और ऐसी सम्पदा के प्रत्येक स्वामी के अधिकार सभी भारों से मुक्त होकर बिहार राज्य में निहित हो जाएंगे। जमींदारी, जागीर और सभी मध्यवर्ती हित समाप्त हो जाएंगे।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["vesting", "estate", "proprietor", "state", "encumbrances", "zamindari abolition", "intermediary", "homestead", "forest", "fishery", "bhumi sudhar"]
+    },
+    {
+      "sectionNumber": "6",
+      "sectionTitle": "Consequences of Vesting — Khas Possession",
+      "sectionTitleHindi": "अधिहरण के परिणाम — खास कब्जा",
+      "text": "When an estate or tenure vests in the State under Section 4: (1) All grants, sub-infeudations, under-tenures and other interests created or derived from such estate or tenure shall determine and become void, except those expressly saved by this Act; (2) The State shall have khas (direct) possession of all lands not in the cultivatory possession of raiyats; (3) All lands included in homestead (tola or abadi) which were used by a proprietor for his own residence shall be resumed by the State; (4) Tanks, ponds, fisheries, and other water bodies forming part of the estate shall vest in the State; (5) All trees, forests, and forest produce on vested land shall belong to the State Government; (6) All debts due to a proprietor from his tenants on account of rent shall be recoverable by the State Government as if they were dues to the State.",
+      "textHindi": "धारा 4 के अधीन किसी सम्पदा या जोत के राज्य में निहित होने पर: (1) ऐसी सम्पदा या जोत से बनाए गए या प्राप्त सभी अनुदान, उप-अधीनस्थता, निम्न जोत और अन्य हित समाप्त हो जाएंगे और शून्य हो जाएंगे; (2) राज्य के पास वह सभी भूमि खास (प्रत्यक्ष) कब्जे में होगी जो रैयतों के कृषि कब्जे में नहीं है।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["consequences of vesting", "khas possession", "grants void", "tank fishery", "forest", "homestead", "abadi", "rent dues", "state government", "khas kabja"]
+    },
+    {
+      "sectionNumber": "8",
+      "sectionTitle": "Rights of Proprietors as Raiyats After Vesting",
+      "sectionTitleHindi": "अधिहरण के पश्चात् स्वामियों के रैयत के रूप में अधिकार",
+      "text": "Notwithstanding anything contained in Section 4, a proprietor or tenure-holder who was personally cultivating any land as on the date of vesting shall be deemed to be a raiyat in respect of such land with all the rights and subject to all the liabilities of a raiyat under this Act. Such a proprietor shall be entitled to retain possession of such land and shall be liable to pay land revenue as assessed by the State Government. The right of a former proprietor as a raiyat shall be heritable and transferable subject to the provisions of this Act. A former proprietor claiming raiyati rights shall apply to the Circle Officer within one year of the date of vesting for determination of his raiyati rights.",
+      "textHindi": "धारा 4 में किसी बात के होते हुए भी, कोई स्वामी या जोतधारी जो निहित होने की तारीख को किसी भूमि की व्यक्तिगत रूप से खेती कर रहा था, उस भूमि के संबंध में इस अधिनियम के अधीन रैयत के सभी अधिकारों और देनदारियों सहित रैयत माना जाएगा।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["raiyat rights", "personal cultivation", "proprietor after vesting", "heritable", "transferable", "circle officer", "1 year", "land revenue", "raiyati adhikaar"]
+    },
+    {
+      "sectionNumber": "9",
+      "sectionTitle": "Rights of Raiyats — Security of Tenure",
+      "sectionTitleHindi": "रैयतों के अधिकार — जोत की सुरक्षा",
+      "text": "Every raiyat shall have a permanent and heritable right of occupancy in the land in his possession under the record of rights. Such right shall be transferable subject to the provisions of this Act. No raiyat shall be ejected from his holding otherwise than in accordance with the provisions of this Act. A raiyat shall have the right to use his land for agricultural purpose, to dig wells, to plant trees, and to make improvements therein. A raiyat shall not be ejected except: (a) on proof of non-payment of rent; (b) on proof of breach of conditions of the tenure; (c) on proof that the land is required for a public purpose. In all cases of ejection, the raiyat shall be given notice and an opportunity of hearing by the Revenue Officer.",
+      "textHindi": "प्रत्येक रैयत को अधिकार-अभिलेख के अधीन उसके कब्जे की भूमि में स्थायी और वंशानुगत अधिभोग का अधिकार होगा। ऐसा अधिकार इस अधिनियम के प्रावधानों के अधीन हस्तांतरणीय होगा। किसी रैयत को उसकी जोत से इस अधिनियम के प्रावधानों के अनुसार के सिवाय बेदखल नहीं किया जाएगा।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["raiyat", "security of tenure", "permanent right", "heritable", "ejectment", "non-payment of rent", "breach of conditions", "public purpose", "notice", "hearing", "raiyati suraksha"]
+    },
+    {
+      "sectionNumber": "21",
+      "sectionTitle": "Bar on Transfer of Raiyati Land to Non-Raiyats",
+      "sectionTitleHindi": "गैर-रैयतों को रैयती भूमि के हस्तांतरण पर रोक",
+      "text": "No transfer of raiyati land by a raiyat belonging to Scheduled Castes or Scheduled Tribes shall be valid unless: (a) such transfer is by way of mortgage with possession to a person belonging to the same Scheduled Caste or Scheduled Tribe; or (b) such transfer has been approved in writing by the competent Revenue Officer. Any transfer in contravention of this section shall be void and the land shall be liable to be restored to the original raiyat. The Collector or Revenue Officer may, suo motu or on complaint, investigate such unauthorized transfers and pass appropriate restoration orders.",
+      "textHindi": "अनुसूचित जाति या अनुसूचित जनजाति से संबंधित रैयत द्वारा रैयती भूमि का कोई हस्तांतरण तब तक मान्य नहीं होगा जब तक: (क) ऐसा हस्तांतरण उसी अनुसूचित जाति या अनुसूचित जनजाति से संबंधित व्यक्ति को कब्जे सहित बंधक के रूप में न हो; या (ख) ऐसे हस्तांतरण को सक्षम राजस्व अधिकारी द्वारा लिखित में अनुमोदित न किया गया हो।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["SC ST land", "transfer bar", "scheduled caste", "scheduled tribe", "void transfer", "restoration", "collector", "raiyati land transfer", "anusuchit jati", "anusuchit janjati"]
+    },
+    {
+      "sectionNumber": "38",
+      "sectionTitle": "Disputes as to Khas Possession — Summary Inquiry by Collector",
+      "sectionTitleHindi": "खास कब्जे के विवाद — समाहर्त्ता द्वारा संक्षिप्त जाँच",
+      "text": "If any dispute arises as to whether any land is in the khas possession of the State Government or in the possession of a raiyat or any other person, the Collector shall conduct a summary inquiry into the matter. The Collector shall issue notice to all concerned parties and after hearing them and examining the revenue records, shall pass an order determining the status of possession. The order of the Collector under this section shall be subject to revision by the Commissioner of the Division. In all such cases, the burden of proof shall lie on the person claiming adverse possession against the State Government.",
+      "textHindi": "यदि इस बारे में कोई विवाद उत्पन्न होता है कि कोई भूमि राज्य सरकार के खास कब्जे में है या किसी रैयत या अन्य व्यक्ति के कब्जे में है, तो समाहर्त्ता मामले की संक्षिप्त जाँच करेगा।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["khas possession", "state government", "dispute", "collector", "summary inquiry", "revision", "commissioner", "burden of proof", "adverse possession", "khas kabja vivad"]
+    },
+    {
+      "sectionNumber": "45",
+      "sectionTitle": "Appeals and Revisions",
+      "sectionTitleHindi": "अपीलें और पुनरीक्षण",
+      "text": "An appeal from any order passed by a Circle Officer or Anchal Adhikari under this Act shall lie to the Sub-Divisional Officer. An appeal from an order of the Sub-Divisional Officer shall lie to the Collector (District Magistrate). An appeal from an order of the Additional Collector shall lie to the Collector. The Commissioner of the Division shall have revisional jurisdiction over all orders of the Collector passed under this Act. An application for revision shall be made within sixty days from the date of the order sought to be revised. The Commissioner may confirm, modify, or reverse any order under revision.",
+      "textHindi": "इस अधिनियम के अधीन अंचलाधिकारी या अंचल पदाधिकारी द्वारा पारित किसी आदेश की अपील अनुमंडलाधिकारी के समक्ष होगी। अनुमंडलाधिकारी के आदेश की अपील समाहर्त्ता (जिला पदाधिकारी) के समक्ष होगी।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["appeal", "revision", "circle officer", "SDO", "collector", "commissioner", "60 days", "BLR Act appeal", "apeel punarieekshan"]
+    },
+    {
+      "sectionNumber": "51",
+      "sectionTitle": "Bar of Jurisdiction of Civil Courts",
+      "sectionTitleHindi": "सिविल न्यायालयों के क्षेत्राधिकार पर रोक",
+      "text": "No Civil Court shall have jurisdiction to entertain, try, or adjudicate any dispute or question which is by or under this Act required to be determined or decided by a Revenue Officer or the State Government. No Civil Court shall grant any injunction or interim relief in respect of any matter which has been decided or is being decided under this Act. Any party aggrieved by the final order of the Commissioner may prefer a revision petition before the High Court of Judicature at Patna under Article 227 of the Constitution of India.",
+      "textHindi": "किसी सिविल न्यायालय को ऐसे किसी विवाद या प्रश्न को ग्रहण करने, विचारण करने या निर्धारित करने का क्षेत्राधिकार नहीं होगा जिसका निर्धारण इस अधिनियम के अधीन किसी राजस्व अधिकारी या राज्य सरकार द्वारा किया जाना अपेक्षित है।",
+      "effectiveFrom": "1950-01-01",
+      "keywords": ["civil court bar", "jurisdiction", "revenue officer", "high court", "article 227", "revision", "injunction", "civil court varjit"]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "actName": "Limitation Act",
+  "actNameHindi": "परिसीमा अधिनियम",
+  "actYear": 1963,
+  "shortName": "Limitation Act",
+  "jurisdiction": "Bihar",
+  "actType": "central",
+  "status": "active",
+  "description": "Prescribes time limits within which suits, appeals, and applications must be filed. Applies to Revenue Courts and DM proceedings.",
+  "officialSource": "https://indiacode.nic.in",
+  "sections": [
+    {
+      "sectionNumber": "3",
+      "sectionTitle": "Bar of Limitation",
+      "sectionTitleHindi": "परिसीमा की रोक",
+      "text": "Subject to the provisions contained in Sections 4 to 24 (inclusive), every suit instituted, appeal preferred, and application made after the prescribed period shall be dismissed, although limitation has not been set up as a defence. The court shall take notice of limitation suo motu and dismiss any proceedings found to be time-barred, even if the defendant has not raised the plea of limitation. In Revenue Courts and before Revenue Officers, the limitation periods prescribed under this Act shall apply unless a specific limitation period is prescribed by the relevant Revenue Act (e.g., Bihar Revenue Code, Bihar Land Mutation Act). If any specific period is prescribed by a Revenue Act, that shall prevail over the general periods under this Act.",
+      "textHindi": "धारा 4 से 24 (समावेशी) में उपबंधित उपबंधों के अधीन रहते हुए, निर्धारित अवधि के बाद संस्थित प्रत्येक वाद, पसंद की गई अपील, और किया गया आवेदन खारिज कर दिया जाएगा, यद्यपि परिसीमा को बचाव के रूप में स्थापित नहीं किया गया है।",
+      "effectiveFrom": "1963-01-01",
+      "keywords": ["limitation", "bar", "time-barred", "prescribed period", "suo motu", "revenue court", "appeal", "suit", "application dismissed", "parimita"]
+    },
+    {
+      "sectionNumber": "5",
+      "sectionTitle": "Extension of Prescribed Period in Certain Cases",
+      "sectionTitleHindi": "कुछ मामलों में निर्धारित अवधि का विस्तार",
+      "text": "Any appeal or any application other than an application under any of the provisions of Order XXI of the Code of Civil Procedure, 1908, may be admitted after the prescribed period if the appellant or the applicant satisfies the court that he had sufficient cause for not preferring the appeal or making the application within such period. No extension of time can be granted under this section for instituting a suit. In Revenue proceedings, if a party was unable to appear on account of illness, natural calamity, or government action beyond his control, the Revenue Officer may condone the delay and admit the late appeal, provided the party explains the delay satisfactorily.",
+      "textHindi": "निर्धारित अवधि के बाद कोई भी अपील या कोई भी आवेदन स्वीकार किया जा सकता है यदि अपीलकर्त्ता या आवेदक न्यायालय को संतुष्ट करता है कि उसके पास उक्त अवधि के भीतर अपील न करने या आवेदन न करने के लिए पर्याप्त कारण था।",
+      "effectiveFrom": "1963-01-01",
+      "keywords": ["extension of time", "condonation of delay", "sufficient cause", "appeal", "illness", "natural calamity", "revenue officer", "Section 5", "parimalti avdhi badha"]
+    },
+    {
+      "sectionNumber": "17",
+      "sectionTitle": "Effect of Fraud or Mistake on Limitation",
+      "sectionTitleHindi": "परिसीमा पर कपट या भूल का प्रभाव",
+      "text": "Where, in the case of any suit or application for which a period of limitation is prescribed by this Act: (a) the suit or application is based upon the fraud of the defendant or respondent or his agent; or (b) the knowledge of the right or title on which a suit or application is founded is concealed by the fraud of any such person, the period of limitation shall not begin to run until the plaintiff or applicant has discovered the fraud or could, with reasonable diligence, have discovered it. In Revenue proceedings, if a mutation was obtained by fraud (forged documents, false statements), the limitation period for challenging such mutation shall begin from the date when the aggrieved party discovered or reasonably ought to have discovered the fraud.",
+      "textHindi": "जहाँ, किसी ऐसे वाद या आवेदन के मामले में जिसके लिए इस अधिनियम द्वारा परिसीमा की एक अवधि निर्धारित है: (क) वाद या आवेदन प्रतिवादी या प्रत्यर्थी या उसके अभिकर्त्ता के कपट पर आधारित हो, परिसीमा की अवधि तब तक शुरू नहीं होगी जब तक वादी या आवेदक ने कपट की खोज नहीं कर ली।",
+      "effectiveFrom": "1963-01-01",
+      "keywords": ["fraud", "concealment", "limitation", "discovery", "mutation obtained by fraud", "limitation starts from discovery", "kapat par parimalti"]
+    },
+    {
+      "sectionNumber": "27",
+      "sectionTitle": "Extinguishment of Right to Property",
+      "sectionTitleHindi": "संपत्ति के अधिकार का निर्वापण",
+      "text": "At the determination of the period hereby limited to any person for instituting a suit for possession of any property, his right to such property shall be extinguished. This section means that if a person has been wrongfully dispossessed and fails to sue for recovery of possession within the prescribed limitation period (generally 12 years for immoveable property), he loses his right to the property permanently. This principle is important in DM court land cases where parties have been out of possession for extended periods and seek to recover possession through revenue proceedings.",
+      "textHindi": "किसी व्यक्ति के लिए किसी संपत्ति के कब्जे के लिए वाद संस्थित करने की यहाँ सीमित अवधि के निर्धारण पर, उस संपत्ति का उसका अधिकार निर्वापित हो जाएगा। इसका अर्थ है कि यदि कोई व्यक्ति गलत तरीके से बेदखल किया गया है और निर्धारित परिसीमा अवधि के भीतर कब्जे की वसूली के लिए वाद नहीं करता, तो वह स्थायी रूप से संपत्ति का अधिकार खो देता है।",
+      "effectiveFrom": "1963-01-01",
+      "keywords": ["extinguishment of right", "possession", "12 years", "immoveable property", "limitation", "dispossession", "adverse possession", "adhikar nirvapan"]
+    }
+  ]
+}

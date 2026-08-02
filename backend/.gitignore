@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables & secrets (CRITICAL: Never commit API keys or DB URIs)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data & temp files
+pids/
+*.pid
+*.seed
+*.pid.lock
+uploads/
+temp/
+tmp/
+
+# Coverage directory used by testing tools
+coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db

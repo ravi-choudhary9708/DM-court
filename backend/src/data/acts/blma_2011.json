@@ -1,0 +1,121 @@
+{
+  "actName": "Bihar Land Mutation Act",
+  "actNameHindi": "बिहार भूमि दाखिल-खारिज अधिनियम",
+  "actYear": 2011,
+  "shortName": "BLMA 2011",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "An Act to consolidate and amend the law relating to mutation of land records (Dakhil-Kharij) in Bihar and to provide for appeals, revision and cancellation of mutations.",
+  "officialSource": "https://state.bihar.gov.in/revenue",
+  "sections": [
+    {
+      "sectionNumber": "2",
+      "sectionTitle": "Definitions",
+      "sectionTitleHindi": "परिभाषाएँ",
+      "text": "In this Act, unless the context otherwise requires: (a) 'Circle Officer' means a Revenue Officer having jurisdiction over a circle; (b) 'Dakhil-Kharij' means mutation of land records, i.e., the process of substituting the name of a new owner or occupant for the former owner or occupant in the land record of rights (Jamabandi); (c) 'Jamabandi' means a record of rights relating to land maintained under the Bihar Land Records Manual; (d) 'Khata' means an account of a raiyat or occupancy tenant in the Jamabandi register; (e) 'Khesra' means a plot or field identified by a specific survey number; (f) 'Revenue Officer' means any officer of the Revenue Department vested with powers under this Act including the Circle Officer, DCLR, Anchalaadhikari, Sub-Divisional Officer (SDO), Additional Collector, and Collector; (g) 'Raiyat' means a person who holds land for the purpose of cultivating it by himself or by members of his family or by servants or labourers; (h) 'Gram' means a village as defined and mapped in the survey records.",
+      "textHindi": "इस अधिनियम में, जब तक संदर्भ से अन्यथा अपेक्षित न हो: (क) 'अंचलाधिकारी' से किसी अंचल पर क्षेत्राधिकार रखने वाला राजस्व अधिकारी अभिप्रेत है; (ख) 'दाखिल-खारिज' से भूमि अभिलेखों का उत्परिवर्तन अभिप्रेत है, अर्थात् अधिकार-अभिलेख (जमाबंदी) में पूर्व स्वामी या अधिभोगी के स्थान पर नए स्वामी या अधिभोगी का नाम दर्ज करने की प्रक्रिया; (ग) 'जमाबंदी' से बिहार भूमि अभिलेख नियमावली के अधीन अनुरक्षित भूमि संबंधी अधिकार-अभिलेख अभिप्रेत है; (घ) 'खाता' से जमाबंदी रजिस्टर में किसी रैयत या अधिभोगी काश्तकार का लेखा अभिप्रेत है; (ङ) 'खेसरा' से एक विशिष्ट सर्वे नंबर द्वारा पहचाना गया कोई भूखंड या खेत अभिप्रेत है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["dakhil kharij", "jamabandi", "khata", "khesra", "mutation", "definition", "raiyat", "land records", "revenue officer", "circle officer"]
+    },
+    {
+      "sectionNumber": "3",
+      "sectionTitle": "Application for Mutation",
+      "sectionTitleHindi": "दाखिल-खारिज के लिए आवेदन",
+      "text": "Any person who acquires any right in land by reason of inheritance, purchase, gift, exchange, partition, court decree, or any other mode of transfer shall within ninety days of acquiring such right, apply to the Circle Officer of the circle in which the land is situated for mutation of his name in the record of rights. The application shall be in the prescribed form and shall be accompanied by relevant documents evidencing the acquisition of rights, including sale deeds, inheritance certificates, partition deeds, court decrees, or any other documents as may be prescribed. An application for mutation may also be made suo motu by the Circle Officer if he has information that any transfer of right in land has taken place.",
+      "textHindi": "कोई भी व्यक्ति जो उत्तराधिकार, क्रय, दान, विनिमय, विभाजन, न्यायालय के डिक्री या हस्तांतरण के किसी अन्य तरीके से भूमि में कोई अधिकार प्राप्त करता है, ऐसा अधिकार प्राप्त करने के नब्बे दिनों के भीतर, जिस अंचल में भूमि स्थित है उसके अंचलाधिकारी को अधिकार-अभिलेख में अपना नाम दर्ज कराने हेतु आवेदन करेगा। आवेदन निर्धारित प्रपत्र में होगा तथा अधिकारों के अर्जन को प्रमाणित करने वाले संबंधित दस्तावेजों सहित होगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["application", "mutation", "90 days", "circle officer", "inheritance", "purchase", "gift", "partition", "court decree", "transfer", "land rights", "prescribed form", "दाखिल-खारिज आवेदन"]
+    },
+    {
+      "sectionNumber": "4",
+      "sectionTitle": "Procedure on Receipt of Application",
+      "sectionTitleHindi": "आवेदन प्राप्त होने पर प्रक्रिया",
+      "text": "On receipt of an application under Section 3, the Circle Officer shall: (1) Register the application and assign it a unique application number; (2) Issue a notice to all interested parties including the present occupant and all persons whose names appear in the existing Jamabandi as having any right, title or interest in the land; (3) Fix a date for hearing within thirty days of receipt of the application; (4) Publish a public notice by affixing it at the gram panchayat office, the village notice board, and in the locality of the land, and also in the prescribed digital manner on the Bihar Land Records portal; (5) Receive objections from interested parties within fifteen days of the notice. No order of mutation shall be passed without giving opportunity of hearing to all interested parties and recording reasons in writing.",
+      "textHindi": "धारा 3 के अधीन आवेदन प्राप्त होने पर, अंचलाधिकारी: (1) आवेदन को रजिस्टर करेगा और एक विशिष्ट आवेदन संख्या प्रदान करेगा; (2) सभी इच्छुक पक्षों को, जिसमें वर्तमान अधिभोगी एवं जमाबंदी में नाम अंकित सभी व्यक्ति शामिल हैं, नोटिस जारी करेगा; (3) आवेदन प्राप्त होने के तीस दिनों के भीतर सुनवाई की तारीख नियत करेगा; (4) ग्राम पंचायत कार्यालय, गांव के नोटिस बोर्ड पर सार्वजनिक नोटिस लगाएगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["procedure", "notice", "hearing", "30 days", "circle officer", "interested parties", "objection", "publication", "gram panchayat", "mutation procedure", "opportunity of hearing", "dakhil kharij prakriya"]
+    },
+    {
+      "sectionNumber": "5",
+      "sectionTitle": "Order of Mutation",
+      "sectionTitleHindi": "दाखिल-खारिज का आदेश",
+      "text": "After hearing the parties and examining the evidence and documents produced, the Circle Officer shall pass an order either allowing or rejecting the application for mutation. (1) If the application is allowed, the Circle Officer shall direct that the name of the applicant be entered in the Jamabandi register in the relevant Khata and Khesra, and the old entry be deleted or modified accordingly. (2) If the application is rejected, the Circle Officer shall give reasons in writing for such rejection. (3) The order of mutation shall be signed by the Circle Officer and a certified copy shall be supplied to the applicant and any other party who appeared and contested the matter. (4) An entry of mutation so made shall be presumptive evidence of the title of the person in whose favour it is made, but shall not be conclusive proof of title. (5) All orders of mutation shall be uploaded on the Bihar Land Records portal within seven days of being passed.",
+      "textHindi": "पक्षों को सुनने तथा प्रस्तुत साक्ष्य एवं दस्तावेजों की जाँच करने के पश्चात्, अंचलाधिकारी दाखिल-खारिज के आवेदन को स्वीकार या अस्वीकार करने का आदेश पारित करेगा। (1) यदि आवेदन स्वीकार किया जाता है, तो अंचलाधिकारी निर्देश देगा कि संबंधित खाता और खेसरा में आवेदक का नाम जमाबंदी रजिस्टर में दर्ज किया जाए। (2) यदि आवेदन अस्वीकार किया जाता है, तो अंचलाधिकारी ऐसी अस्वीकृति के कारण लिखित में देगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["mutation order", "allowing", "rejecting", "jamabandi entry", "khata", "khesra", "evidence", "presumptive title", "certified copy", "Bihar land records portal", "dakhil kharij aadesh"]
+    },
+    {
+      "sectionNumber": "6",
+      "sectionTitle": "Time Limit for Disposal",
+      "sectionTitleHindi": "निस्तारण की समय-सीमा",
+      "text": "Every application for mutation shall be disposed of within sixty days from the date of its receipt. If the Circle Officer fails to dispose of the application within the said period, it shall be deemed to be allowed unless the opposite party has filed an objection, in which case the matter shall be referred to the Sub-Divisional Officer (SDO) for disposal within the next thirty days. The Circle Officer shall record reasons in writing if the sixty-day period cannot be complied with and shall report the same to the Sub-Divisional Officer.",
+      "textHindi": "दाखिल-खारिज के प्रत्येक आवेदन का प्राप्ति की तारीख से साठ दिनों के भीतर निस्तारण किया जाएगा। यदि अंचलाधिकारी उक्त अवधि के भीतर आवेदन का निस्तारण करने में विफल रहता है, तो इसे स्वीकृत माना जाएगा, जब तक कि विपक्षी ने आपत्ति दाखिल न की हो।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["time limit", "60 days", "disposal", "deemed allowed", "sub-divisional officer", "circle officer", "objection", "mutation deadline", "samay seema"]
+    },
+    {
+      "sectionNumber": "7",
+      "sectionTitle": "Appeal Against Order of Mutation",
+      "sectionTitleHindi": "दाखिल-खारिज के आदेश के विरुद्ध अपील",
+      "text": "Any person aggrieved by an order of mutation passed by the Circle Officer under Section 5 may prefer an appeal to the Sub-Divisional Officer (SDO) of the sub-division in which the land is situated within thirty days of the date of communication of such order. The SDO shall hear the appeal and pass an order after giving reasonable opportunity of hearing to both parties. The SDO shall dispose of the appeal within sixty days of its filing. The order of the SDO in appeal shall be communicated to the parties within fifteen days of its passing and shall be uploaded on the Bihar Land Records portal.",
+      "textHindi": "धारा 5 के अधीन अंचलाधिकारी द्वारा पारित दाखिल-खारिज के आदेश से व्यथित कोई भी व्यक्ति ऐसे आदेश की संसूचना की तारीख से तीस दिनों के भीतर उस उप-प्रमंडल के अनुमंडलाधिकारी (SDO) के समक्ष अपील कर सकता है जिसमें भूमि स्थित है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["appeal", "sub-divisional officer", "SDO", "30 days", "mutation order", "aggrieved", "hearing", "60 days disposal", "dakhil kharij appeal", "apeel"]
+    },
+    {
+      "sectionNumber": "8",
+      "sectionTitle": "Second Appeal to Additional Collector",
+      "sectionTitleHindi": "अपर समाहर्त्ता को द्वितीय अपील",
+      "text": "Any person aggrieved by an appellate order of the Sub-Divisional Officer passed under Section 7 may prefer a second appeal to the Additional Collector of the district within thirty days of the communication of such appellate order. The Additional Collector shall have the power to confirm, modify, or set aside the order of the SDO. The Additional Collector shall dispose of the second appeal within sixty days of filing. The order of the Additional Collector in second appeal shall be final subject to revision by the Collector under Section 9.",
+      "textHindi": "धारा 7 के अधीन अनुमंडलाधिकारी के अपीलीय आदेश से व्यथित कोई भी व्यक्ति ऐसे अपीलीय आदेश की संसूचना की तारीख से तीस दिनों के भीतर जिले के अपर समाहर्त्ता के समक्ष द्वितीय अपील कर सकता है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["second appeal", "additional collector", "30 days", "SDO order", "confirm", "modify", "set aside", "final order", "dwiteey apeel", "apar samaharta"]
+    },
+    {
+      "sectionNumber": "9",
+      "sectionTitle": "Cancellation of Mutation — Powers of Additional Collector",
+      "sectionTitleHindi": "दाखिल-खारिज/जमाबंदी रद्दीकरण — अपर समाहर्त्ता की शक्तियाँ",
+      "text": "The Additional Collector shall have the power to cancel any mutation or Jamabandi entry that has been made: (a) in contravention of any law or rule for the time being in force; (b) on the basis of fraudulent, forged, or fabricated documents; (c) without following the procedure prescribed under this Act; (d) against the interest of government land, public land, or land vested in the State. On receiving information or complaint about such illegal mutation or Jamabandi entry, the Additional Collector may, after issuing notice to all parties and giving them opportunity of hearing, pass an order cancelling such mutation or Jamabandi entry and directing restoration of the original entries. The Additional Collector may also take cognizance of any illegal mutation suo motu.",
+      "textHindi": "अपर समाहर्त्ता को किसी भी दाखिल-खारिज या जमाबंदी प्रविष्टि को रद्द करने की शक्ति होगी जो: (क) किसी प्रचलित कानून या नियम के उल्लंघन में की गई हो; (ख) धोखाधड़ी, जाली या गढ़े गए दस्तावेजों के आधार पर की गई हो; (ग) इस अधिनियम के अधीन विहित प्रक्रिया का पालन किए बिना की गई हो; (घ) सरकारी भूमि, सार्वजनिक भूमि या राज्य में निहित भूमि के विरुद्ध हो। ऐसी अवैध दाखिल-खारिज या जमाबंदी प्रविष्टि के बारे में सूचना या शिकायत प्राप्त होने पर, अपर समाहर्त्ता सभी पक्षों को नोटिस जारी करने और सुनवाई का अवसर देने के पश्चात् ऐसी दाखिल-खारिज या जमाबंदी प्रविष्टि को रद्द करने का आदेश पास कर सकता है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["jamabandi cancellation", "cancellation of mutation", "additional collector", "fraudulent documents", "forged", "illegal mutation", "suo motu", "government land", "public land", "raddiikaran", "jaalib dastaawez"]
+    },
+    {
+      "sectionNumber": "9(6)(A)",
+      "sectionTitle": "Appeal and Revision to Collector (DM) Against Cancellation Order",
+      "sectionTitleHindi": "समाहर्त्ता (जिला पदाधिकारी) के समक्ष रद्दीकरण आदेश के विरुद्ध अपील एवं पुनरीक्षण",
+      "text": "Any person aggrieved by an order of cancellation of mutation or Jamabandi passed by the Additional Collector under Section 9 may prefer an appeal before the Collector (District Magistrate / District Collector) of the district within thirty days from the date of communication of such order. The Collector shall: (i) issue notice to all parties; (ii) call for the original case file from the Additional Collector; (iii) hear arguments of both sides or their advocates; (iv) examine whether the order of the Additional Collector is in conformity with law, facts on record, and the principles of natural justice; (v) pass an order confirming, modifying, or reversing the order of the Additional Collector; (vi) record reasons for the order in writing. The Collector may also exercise suo motu revision powers if he is satisfied that any order of mutation or cancellation passed by any subordinate Revenue Officer is illegal or improper, within three years of such order. The order of the Collector shall be final and shall be uploaded on the Bihar Land Records portal.",
+      "textHindi": "धारा 9 के अधीन अपर समाहर्त्ता द्वारा पारित दाखिल-खारिज या जमाबंदी के रद्दीकरण के आदेश से व्यथित कोई भी व्यक्ति ऐसे आदेश की संसूचना की तारीख से तीस दिनों के भीतर जिले के समाहर्त्ता (जिला पदाधिकारी/जिला कलेक्टर) के समक्ष अपील कर सकता है। समाहर्त्ता: (i) सभी पक्षों को नोटिस जारी करेगा; (ii) अपर समाहर्त्ता से मूल वाद पत्र मँगाएगा; (iii) दोनों पक्षों या उनके अधिवक्ताओं के तर्क सुनेगा; (iv) जाँच करेगा कि अपर समाहर्त्ता का आदेश कानून, अभिलेख के तथ्यों एवं प्राकृतिक न्याय के सिद्धांतों के अनुरूप है या नहीं; (v) अपर समाहर्त्ता के आदेश की पुष्टि, संशोधन या विखंडन का आदेश पारित करेगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["appeal to collector", "revision", "district magistrate", "DM", "30 days", "cancellation order", "jamabandi cancellation appeal", "natural justice", "suo motu revision", "3 years", "final order", "Section 9(6)(A)", "samaharta", "jila padhikari"]
+    },
+    {
+      "sectionNumber": "10",
+      "sectionTitle": "Powers of Collector to Call for Records",
+      "sectionTitleHindi": "अभिलेख तलब करने की समाहर्त्ता की शक्ति",
+      "text": "The Collector may at any time call for the records of any proceedings of any Revenue Officer subordinate to him for the purpose of satisfying himself as to the legality or propriety of any order passed and as to the regularity of proceedings. If in any case, the Collector considers that the order or proceedings should be modified, annulled, or reversed, he may pass such order thereon as he thinks fit. Such power of revision shall be exercised within three years from the date of the order sought to be revised. No revision shall be entertained unless notice has been issued to the opposite party and an opportunity of hearing has been given.",
+      "textHindi": "समाहर्त्ता किसी भी समय अपने अधीनस्थ किसी राजस्व अधिकारी की किसी कार्यवाही के अभिलेख को तलब कर सकता है ताकि वह पारित आदेश की वैधता या औचित्य और कार्यवाही की नियमितता के बारे में संतुष्ट हो सके। यदि किसी मामले में, समाहर्त्ता विचार करता है कि आदेश या कार्यवाही को संशोधित, रद्द या विखंडित किया जाना चाहिए, तो वह उस पर उचित आदेश पारित कर सकता है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["collector powers", "call for records", "revision powers", "legality", "3 years", "subordinate revenue officer", "annul", "modify", "notice", "hearing", "record talab"]
+    },
+    {
+      "sectionNumber": "11",
+      "sectionTitle": "Finality of Orders",
+      "sectionTitleHindi": "आदेशों की अंतिमता",
+      "text": "Subject to the provisions of this Act regarding appeals and revision, every order passed under this Act shall be final. No Civil Court shall have jurisdiction to try any suit or issue any process in respect of any matter which has been determined or is capable of being determined under this Act. Any party aggrieved by a final order of the Collector may seek redress before the Commissioner of the Division or the High Court of Judicature at Patna by way of revision or writ petition as the case may be.",
+      "textHindi": "अपीलों और पुनरीक्षण के संबंध में इस अधिनियम के प्रावधानों के अधीन रहते हुए, इस अधिनियम के अधीन पारित प्रत्येक आदेश अंतिम होगा। किसी सिविल न्यायालय को किसी ऐसे विषय के संबंध में कोई वाद विचारण करने या कोई प्रक्रिया जारी करने का क्षेत्राधिकार नहीं होगा जिसका निर्धारण इस अधिनियम के अधीन किया गया है।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["finality", "civil court bar", "jurisdiction", "commissioner", "high court", "writ petition", "revision", "final order", "antimitaa", "civil court varjit"]
+    },
+    {
+      "sectionNumber": "13",
+      "sectionTitle": "Penalty for Furnishing False Information",
+      "sectionTitleHindi": "मिथ्या जानकारी देने पर दंड",
+      "text": "Any person who furnishes any false information, makes any false statement, or submits any forged or fabricated document in connection with any application or proceeding under this Act shall be liable to imprisonment for a term which may extend to two years, or with fine which may extend to ten thousand rupees, or with both. Proceedings under this section shall be initiated by the Circle Officer on the basis of a complaint or suo motu, and the case shall be forwarded to the competent magistrate for trial.",
+      "textHindi": "कोई भी व्यक्ति जो इस अधिनियम के अधीन किसी आवेदन या कार्यवाही के संबंध में कोई मिथ्या जानकारी प्रदान करता है, कोई मिथ्या बयान देता है, या कोई जाली या गढ़ा हुआ दस्तावेज़ प्रस्तुत करता है, दो वर्ष तक के कारावास, या दस हजार रुपये तक के जुर्माने, या दोनों से दंडनीय होगा।",
+      "effectiveFrom": "2011-01-01",
+      "keywords": ["penalty", "false information", "forged document", "fabricated", "imprisonment", "2 years", "fine", "mutation fraud", "mithya jaankari", "jali dastaawez saza"]
+    }
+  ]
+}

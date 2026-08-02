@@ -1,0 +1,85 @@
+{
+  "actName": "Code of Criminal Procedure",
+  "actNameHindi": "दंड प्रक्रिया संहिता",
+  "actYear": 1973,
+  "shortName": "CrPC",
+  "jurisdiction": "Bihar",
+  "actType": "central",
+  "status": "active",
+  "description": "Provides procedural framework for criminal law in India, including preventive and executive powers of District Magistrates for law and order, land disputes, and public nuisance.",
+  "officialSource": "https://indiacode.nic.in",
+  "sections": [
+    {
+      "sectionNumber": "107",
+      "sectionTitle": "Security for Keeping the Peace",
+      "sectionTitleHindi": "शांति बनाए रखने की प्रतिभूति",
+      "text": "When an Executive Magistrate receives information that any person is likely to commit a breach of the peace or disturb the public tranquillity or do any wrongful act that may probably occasion a breach of the peace or disturb the public tranquillity, and is of opinion that there is sufficient ground for proceeding, the Magistrate may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond, with or without sureties, for keeping the peace for such period, not exceeding one year, as the Magistrate thinks fit. The Magistrate shall issue a notice to the person specifying the nature of the information received, require him to appear before the Magistrate on a specified date, and show cause why he should not be ordered to give security.",
+      "textHindi": "जब कोई कार्यपालक मजिस्ट्रेट सूचना पाता है कि कोई व्यक्ति शांति भंग करने या लोक शांति विक्षुब्ध करने की संभावना है, और उसकी राय है कि कार्यवाही के लिए पर्याप्त आधार है, तो मजिस्ट्रेट ऐसे व्यक्ति से कारण बताने की अपेक्षा कर सकता है कि वह एक वर्ष से अनधिक अवधि के लिए शांति बनाए रखने का बंधपत्र निष्पादित क्यों न करे।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["security for peace", "breach of peace", "Executive Magistrate", "bond", "sureties", "one year", "show cause", "Section 107", "shanti pratigya", "peace bond"]
+    },
+    {
+      "sectionNumber": "116",
+      "sectionTitle": "Inquiry as to Truth of Information — Section 107 Proceedings",
+      "sectionTitleHindi": "सूचना की सत्यता की जाँच",
+      "text": "When any person is ordered to show cause under Section 107, the Magistrate shall then examine the information or complaint on which the proceedings were initiated, and shall hear both parties and examine any witnesses produced by either side. If the Magistrate is satisfied that it is necessary for keeping the peace to require security, he shall make an order accordingly. If the Magistrate is not satisfied, he shall discharge the person. Where the proceedings under Section 107 arise out of a dispute relating to possession of land, the Magistrate shall forward the case for disposal under Section 145.",
+      "textHindi": "जब किसी व्यक्ति को धारा 107 के अधीन कारण बताने का आदेश दिया जाता है, तो मजिस्ट्रेट उस सूचना या परिवाद की जाँच करेगा और दोनों पक्षों को सुनेगा। यदि मजिस्ट्रेट संतुष्ट है कि शांति बनाए रखने के लिए प्रतिभूति की अपेक्षा करना आवश्यक है, तो वह तदनुसार आदेश पारित करेगा।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["inquiry", "Section 107", "examination", "witnesses", "order of security", "discharge", "land dispute", "Section 145", "jaanch"]
+    },
+    {
+      "sectionNumber": "133",
+      "sectionTitle": "Conditional Order for Removal of Public Nuisance",
+      "sectionTitleHindi": "लोक बाधा दूर करने का सशर्त आदेश",
+      "text": "Whenever a District Magistrate, Sub-Divisional Magistrate, or any other Executive Magistrate specially empowered by the State Government in this behalf, on receiving the report of a police officer or other information and on taking such evidence (if any) as he thinks fit, considers that: (a) any unlawful obstruction or nuisance should be removed from any public place or from any way, river, channel, or tank; (b) the conduct of any trade or occupation, or the keeping of any goods or merchandise, is injurious to the health or physical comfort of the community; (c) the construction of any building, or the disposal of any substance, as is likely to occasion conflagration or explosion; (d) any building, tent, or structure is in such a state as to be dangerous to persons living or working near it, he may make a conditional order requiring the person causing such obstruction or nuisance or carrying on such trade or occupation or keeping such goods, to remove such obstruction or nuisance, or to desist from carrying on such trade or occupation or to remove such goods, within a time to be fixed in the order.",
+      "textHindi": "जब कभी जिला मजिस्ट्रेट, अनुमंडल मजिस्ट्रेट, या राज्य सरकार द्वारा विशेष रूप से अधिकारित कोई अन्य कार्यपालक मजिस्ट्रेट, किसी पुलिस अधिकारी की रिपोर्ट या अन्य सूचना प्राप्त कर विचार करता है कि किसी सार्वजनिक स्थान से कोई विधिविरुद्ध बाधा या न्यूसेंस हटाई जानी चाहिए, तो वह एक सशर्त आदेश पारित कर सकता है।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["public nuisance", "conditional order", "Executive Magistrate", "District Magistrate", "obstruction", "removal", "public place", "health", "dangerous building", "lok badha"]
+    },
+    {
+      "sectionNumber": "144",
+      "sectionTitle": "Power to Issue Order in Urgent Cases of Nuisance or Apprehended Danger",
+      "sectionTitleHindi": "आपातकालीन मामलों में आदेश जारी करने की शक्ति",
+      "text": "In cases of emergency or danger to human life, health or safety, or in cases of disturbance of the public tranquillity, riot, or affray, a District Magistrate, a Sub-Divisional Magistrate or any other Executive Magistrate specially empowered by the State Government in this behalf, may direct any person to abstain from a certain act or to take certain order with certain property in his possession or under his management, if such Magistrate considers that such direction is likely to prevent, or tends to prevent, obstruction, annoyance or injury to any person lawfully employed, or danger to human life, health or safety, or a disturbance of the public tranquillity, or a riot or an affray. Such an order may, in cases of emergency or in cases where the circumstances do not admit of the serving of notice, be passed ex parte. The order may be directed against a particular individual, or against persons residing in a particular place or area, or against the public generally when frequenting or visiting a particular place or area. No order under this section shall remain in force for more than two months from the making thereof. The State Government may, however, in cases involving danger to human life or likely to cause a riot or affray, extend the operation of an order for a further period of six months.",
+      "textHindi": "मानव जीवन, स्वास्थ्य या सुरक्षा को संकट, या लोक शांति की अशांति, दंगे, या झगड़े के मामलों में, जिला मजिस्ट्रेट, अनुमंडल मजिस्ट्रेट या राज्य सरकार द्वारा विशेष रूप से अधिकारित कोई अन्य कार्यपालक मजिस्ट्रेट, किसी व्यक्ति को किसी कार्य से विरत रहने या उसके कब्जे में या उसके प्रबंधन के अधीन किसी संपत्ति के संबंध में कुछ आदेश करने का निर्देश दे सकता है।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["Section 144", "emergency", "public order", "District Magistrate", "prohibitory order", "riot", "affray", "ex parte", "two months", "disturbance", "peace", "dafa 144"]
+    },
+    {
+      "sectionNumber": "145",
+      "sectionTitle": "Procedure Where Dispute Concerning Land or Water is Likely to Cause Breach of Peace",
+      "sectionTitleHindi": "भूमि या जल संबंधी विवाद जो शांति भंग करने की संभावना रखते हों — प्रक्रिया",
+      "text": "Whenever an Executive Magistrate is satisfied from a police report or other information that a dispute likely to cause a breach of the peace exists concerning any land or water or the boundaries thereof, within his local jurisdiction, he shall make an order in writing stating the grounds of his being so satisfied, and requiring the parties concerned to attend his court in person or by pleader on a specified date and time, and to put in written statements of their respective claims as respects the fact of actual possession of the subject of dispute. For the purposes of this section, the expression 'land or water' includes buildings, markets, fisheries, crops, or other produce of land, and the rents or profits of any such property. The Magistrate shall then peruse the statements so put in, hear the parties, receive all such evidence as may be produced by them, take such further evidence as he thinks necessary, and, if possible, decide whether any and which of the parties was at the date of the order before mentioned in actual possession of the subject of dispute. The party found to be in actual possession on the date of the order shall be entitled to retain such possession until evicted therefrom by a decree of a civil court or by any authority competent in this behalf.",
+      "textHindi": "जब कभी कोई कार्यपालक मजिस्ट्रेट पुलिस रिपोर्ट या अन्य सूचना से संतुष्ट होता है कि किसी भूमि या जल या उसकी सीमाओं के बारे में उसके स्थानीय क्षेत्राधिकार के भीतर कोई ऐसा विवाद है जिससे शांति भंग होने की संभावना है, तो वह लिखित में एक आदेश पारित करेगा जिसमें संतुष्ट होने के आधार बताए जाएंगे और संबंधित पक्षों को एक निर्दिष्ट तारीख को अपने-अपने कब्जे के संबंध में लिखित बयान पेश करने की अपेक्षा की जाएगी।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["Section 145", "land dispute", "breach of peace", "Executive Magistrate", "actual possession", "water dispute", "boundary dispute", "written statement", "civil court decree", "bhumi vivad shanti bhang"]
+    },
+    {
+      "sectionNumber": "146",
+      "sectionTitle": "Power to Attach Subject of Dispute",
+      "sectionTitleHindi": "विवाद की विषय-वस्तु को कुर्क करने की शक्ति",
+      "text": "If the Magistrate at any time after making the order under Section 145 considers the case to be one of emergency, or if he decides that none of the parties was then in possession, or if he is unable to satisfy himself as to which of them was then in actual possession of the subject of dispute, he may attach the subject of dispute until a competent court has determined the rights of the parties thereto with respect to the person entitled to the possession thereof. Any person who is aggrieved by the order of attachment may apply for revocation or modification thereof to the Magistrate who made it or to any higher authority including the Sessions Judge and the High Court.",
+      "textHindi": "यदि मजिस्ट्रेट किसी भी समय धारा 145 के अधीन आदेश पारित करने के पश्चात् मामले को आपातकाल का मानता है, या यदि वह निर्णय करता है कि उस समय कोई भी पक्ष कब्जे में नहीं था, तो वह विवाद की विषय-वस्तु को तब तक कुर्क कर सकता है जब तक सक्षम न्यायालय पक्षों के अधिकार नहीं निर्धारित कर देता।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["attachment", "dispute", "emergency", "possession", "competent court", "Section 146", "revocation", "Sessions Judge", "kurki"]
+    },
+    {
+      "sectionNumber": "147",
+      "sectionTitle": "Dispute Concerning Right to Use Land or Water",
+      "sectionTitleHindi": "भूमि या जल के उपयोग के अधिकार संबंधी विवाद",
+      "text": "Whenever any local area has been duly notified under any enactment for the time being in force as being subject to the provisions of this section, and a dispute arises regarding any alleged right to use land or water situated in such local area, the Collector of the district shall, on the application of either party, investigate the dispute and decide the question according to the right, subject to an appeal to the Revenue Officer as prescribed. The provisions of Sections 145 and 146 shall apply, mutatis mutandis, to disputes under this section.",
+      "textHindi": "जब कभी कोई स्थानीय क्षेत्र किसी प्रवृत्त अधिनियम के अधीन इस धारा के प्रावधानों के अधीन होने वाले क्षेत्र के रूप में अधिसूचित किया गया हो, और उस स्थानीय क्षेत्र में स्थित भूमि या जल के उपयोग के किसी कथित अधिकार के संबंध में कोई विवाद उत्पन्न होता है, तो जिले का समाहर्त्ता किसी भी पक्ष के आवेदन पर विवाद की जाँच करेगा।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["right to use", "land", "water", "collector", "dispute", "Section 147", "local area", "investigation", "appeal", "use right"]
+    },
+    {
+      "sectionNumber": "195",
+      "sectionTitle": "Prosecution for Contempt of Lawful Authority — False Evidence",
+      "sectionTitleHindi": "न्यायालय की विधिपूर्ण प्राधिकार की अवमानना — मिथ्या साक्ष्य",
+      "text": "No court shall take cognizance of any offence punishable under Section 172 to 188 of the Indian Penal Code (now BNS), except on the complaint in writing of the public servant concerned. For proceedings before a court, no court shall take cognizance of any offence of giving false evidence or fabricating false evidence except on the complaint of the court before which the false evidence was given or in which the false evidence was used. A Revenue Court is a court for the purpose of this section and thus may file a complaint against any person who produces false documents or gives false evidence in revenue proceedings.",
+      "textHindi": "कोई न्यायालय भारतीय दंड संहिता की धारा 172 से 188 के अधीन दंडनीय किसी अपराध का संज्ञान तब तक नहीं लेगा जब तक कि संबंधित लोक सेवक द्वारा लिखित परिवाद न दिया जाए। राजस्व न्यायालय भी इस धारा के प्रयोजन के लिए एक न्यायालय है।",
+      "effectiveFrom": "1974-04-01",
+      "keywords": ["false evidence", "contempt", "revenue court", "complaint", "cognizance", "Section 195", "fabricated evidence", "mithya saakshya"]
+    }
+  ]
+}

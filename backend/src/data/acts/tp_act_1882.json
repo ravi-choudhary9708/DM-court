@@ -1,0 +1,58 @@
+{
+  "actName": "Transfer of Property Act",
+  "actNameHindi": "संपत्ति अंतरण अधिनियम",
+  "actYear": 1882,
+  "shortName": "TP Act",
+  "jurisdiction": "Bihar",
+  "actType": "central",
+  "status": "active",
+  "description": "Regulates transfer of property between living persons, including sale, mortgage, lease, gift and exchange of immoveable property.",
+  "officialSource": "https://indiacode.nic.in",
+  "sections": [
+    {
+      "sectionNumber": "5",
+      "sectionTitle": "Transfer of Property — Definition",
+      "sectionTitleHindi": "संपत्ति का अंतरण — परिभाषा",
+      "text": "'Transfer of property' means an act by which a living person conveys property, in present or in future, to one or more other living persons, or to himself and one or more other living persons; and 'to transfer property' is to perform such act. In this section 'living person' includes a company or association or body of individuals, whether incorporated or not, but nothing herein contained shall affect any law for the time being in force relating to transfer of property to or by companies, associations or bodies of individuals. For revenue and land record purposes, any transfer of immoveable property must be subsequently recorded by mutation of the Jamabandi in favour of the transferee.",
+      "textHindi": "'संपत्ति का अंतरण' से कोई कार्य अभिप्रेत है जिसके द्वारा कोई जीवित व्यक्ति वर्तमान में या भविष्य में एक या अधिक अन्य जीवित व्यक्तियों को, या स्वयं को और एक या अधिक अन्य जीवित व्यक्तियों को संपत्ति अंतरित करता है।",
+      "effectiveFrom": "1882-01-01",
+      "keywords": ["transfer of property", "living person", "conveyance", "immoveable property", "mutation", "jamabandi", "definition", "antaran", "sampatti antaran"]
+    },
+    {
+      "sectionNumber": "54",
+      "sectionTitle": "Sale — Definition and Completion",
+      "sectionTitleHindi": "विक्रय — परिभाषा और पूर्णता",
+      "text": "'Sale' is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale of immoveable property of the value of one hundred rupees and upwards can be made only by a registered instrument. Sale of immoveable property of a value less than one hundred rupees may be made either by a registered instrument or by delivery of the property. The contract of sale does not in itself create any interest in the immoveable property. Ownership passes to the buyer on execution and registration of the sale deed. In Bihar, after registration of a sale deed, the buyer must apply for mutation of his name in the Jamabandi within 90 days under Section 3 of the Bihar Land Mutation Act 2011.",
+      "textHindi": "'विक्रय' दी गई या वचन दी गई कीमत के बदले में स्वामित्व का अंतरण है। सौ रुपये और उससे अधिक मूल्य की अचल संपत्ति का विक्रय केवल एक पंजीकृत लिखत द्वारा ही किया जा सकता है। बिहार में, बिक्री विलेख के पंजीकरण के बाद, क्रेता को बिहार भूमि दाखिल-खारिज अधिनियम 2011 की धारा 3 के अधीन 90 दिनों के भीतर जमाबंदी में अपना नाम दर्ज कराने के लिए आवेदन करना होगा।",
+      "effectiveFrom": "1882-01-01",
+      "keywords": ["sale", "transfer of ownership", "registered instrument", "sale deed", "registration", "immoveable property", "mutation", "jamabandi", "bikri", "vikray"]
+    },
+    {
+      "sectionNumber": "58",
+      "sectionTitle": "Mortgage — Definition and Types",
+      "sectionTitleHindi": "बंधक — परिभाषा और प्रकार",
+      "text": "A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advanced or to be advanced by way of loan, an existing or future debt, or the performance of an engagement which may give rise to a pecuniary liability. The types of mortgages are: (1) Simple mortgage — personal liability of mortgagor; (2) Mortgage by conditional sale; (3) Usufructuary mortgage — mortgagee entitled to possession and income; (4) English mortgage; (5) Mortgage by deposit of title deeds (equitable mortgage); (6) Anomalous mortgage. In Bihar, a simple mortgage of immoveable property worth Rs. 100 or more must be registered. Mortgages are common in revenue records when land is pledged as security for loans.",
+      "textHindi": "'बंधक' ऋण के रूप में दी गई या दी जाने वाली राशि के भुगतान को सुरक्षित करने के प्रयोजन के लिए किसी विशिष्ट अचल संपत्ति में किसी हित का अंतरण है। बंधक के प्रकार हैं: (1) साधारण बंधक; (2) सशर्त बिक्री द्वारा बंधक; (3) उपभोगी बंधक।",
+      "effectiveFrom": "1882-01-01",
+      "keywords": ["mortgage", "simple mortgage", "usufructuary mortgage", "equitable mortgage", "registered instrument", "immoveable property", "loan", "bandha", "rehan"]
+    },
+    {
+      "sectionNumber": "105",
+      "sectionTitle": "Lease of Immoveable Property — Definition",
+      "sectionTitleHindi": "अचल संपत्ति की पट्टे — परिभाषा",
+      "text": "A lease of immoveable property is a transfer of a right to enjoy such property, made for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised, or of money, a share of crops, service or any other thing of value, to be rendered periodically or on specified occasions to the transferor by the transferee, who accepts the transfer on such terms. The transferor is called the lessor, the transferee is called the lessee, the price is called the premium, and the money, share, service or other thing to be so rendered is called the rent. Leases of immoveable property from year to year, or for any term exceeding one year or reserving a yearly rent, can be made only by a registered instrument.",
+      "textHindi": "'अचल संपत्ति का पट्टा' ऐसी संपत्ति का उपभोग करने के अधिकार का अंतरण है, जो एक निश्चित समय के लिए, प्रकट या विवक्षित, या स्थायी रूप से, दी गई या वचनबद्ध कीमत के बदले में किया जाता है।",
+      "effectiveFrom": "1882-01-01",
+      "keywords": ["lease", "immoveable property", "lessor", "lessee", "rent", "premium", "registered instrument", "patta", "kiraya naamaa"]
+    },
+    {
+      "sectionNumber": "122",
+      "sectionTitle": "Gift — Definition and Acceptance",
+      "sectionTitleHindi": "दान — परिभाषा और स्वीकृति",
+      "text": "'Gift' is the transfer of certain existing moveable or immoveable property made voluntarily and without consideration, by one person, called the donor, to another, called the donee, and accepted by or on behalf of the donee. Acceptance must be made during the lifetime of the donor and while he is still capable of giving. If the donee dies before acceptance, the gift is void. For the purpose of making a gift of immoveable property, the transfer must be effected by a registered instrument signed by or on behalf of the donor and attested by at least two witnesses. After a registered gift deed, the donee must apply for mutation in the Jamabandi.",
+      "textHindi": "'दान' किसी व्यक्ति (दाता) द्वारा दूसरे व्यक्ति (दानग्रहीता) को स्वेच्छा से और बिना प्रतिफल के की गई कुछ विद्यमान जंगम या अचल संपत्ति का अंतरण है, जिसे दानग्रहीता या उसकी ओर से स्वीकार किया जाता है। अचल संपत्ति के दान के लिए, अंतरण एक पंजीकृत लिखत द्वारा किया जाना चाहिए।",
+      "effectiveFrom": "1882-01-01",
+      "keywords": ["gift", "donor", "donee", "voluntary", "without consideration", "registered instrument", "witnesses", "immoveable property", "daan", "hedyaa"]
+    }
+  ]
+}

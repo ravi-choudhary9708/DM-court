@@ -1,0 +1,67 @@
+{
+  "actName": "Bihar Land Disputes Resolution Act",
+  "actNameHindi": "बिहार भूमि विवाद निराकरण अधिनियम",
+  "actYear": 2009,
+  "shortName": "BLDRA 2009",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "An Act to provide for expeditious resolution of land disputes in Bihar through special courts (DCLR) and to reduce burden on civil courts.",
+  "officialSource": "https://state.bihar.gov.in/revenue",
+  "sections": [
+    {
+      "sectionNumber": "3",
+      "sectionTitle": "Establishment of Special Courts — DCLR",
+      "sectionTitleHindi": "विशेष न्यायालयों की स्थापना — जिला भूमि सुधार उप-समाहर्त्ता",
+      "text": "The State Government shall, for the purpose of resolution of land disputes, establish Special Courts to be presided over by an officer not below the rank of a Sub-Divisional Officer designated as the District Land Reforms and Revenue Court (DLRRC) or District Land Reforms Deputy Collector (DLRDC). Such Courts shall have jurisdiction to try, hear, and determine land disputes as specified in this Act, including disputes as to title, possession, and mutation of agricultural land, homestead land, and forest land. The State Government may notify additional officers to preside over such courts in districts having a large number of pending disputes.",
+      "textHindi": "राज्य सरकार, भूमि विवादों के निराकरण के प्रयोजन के लिए, ऐसे विशेष न्यायालय स्थापित करेगी जिनकी अध्यक्षता अनुमंडलाधिकारी के पद से नीचे नहीं के किसी अधिकारी द्वारा की जाएगी।",
+      "effectiveFrom": "2009-01-01",
+      "keywords": ["special court", "DCLR", "DLRRC", "land disputes", "Sub-Divisional Officer", "title", "possession", "mutation", "agricultural land", "homestead", "vishesh nyayalay"]
+    },
+    {
+      "sectionNumber": "4",
+      "sectionTitle": "Jurisdiction of DCLR",
+      "sectionTitleHindi": "जिला भूमि सुधार उप-समाहर्त्ता का क्षेत्राधिकार",
+      "text": "The DCLR shall have jurisdiction to hear and determine the following disputes: (a) disputes as to title and ownership of agricultural, homestead, and other land up to an area of ten acres; (b) disputes as to actual possession and right to possess land; (c) disputes as to partition of joint holdings; (d) disputes arising out of mutations done illegally or fraudulently; (e) disputes as to boundaries of holdings; (f) claims by occupancy raiyats against landlords; (g) disputes relating to government land, sarkari zameen, and gauchar land encroachments. The DCLR shall not have jurisdiction over disputes where the valuation exceeds a prescribed limit or where the area exceeds ten acres, which shall be tried by the Sub-Divisional Officer or Collector as appropriate.",
+      "textHindi": "जिला भूमि सुधार उप-समाहर्त्ता को निम्नलिखित विवादों को सुनने और निर्धारित करने का क्षेत्राधिकार होगा: (क) दस एकड़ तक की कृषि, गृहस्थ और अन्य भूमि के स्वामित्व और हक के विवाद; (ख) भूमि के वास्तविक कब्जे और कब्जे के अधिकार के विवाद।",
+      "effectiveFrom": "2009-01-01",
+      "keywords": ["DCLR jurisdiction", "10 acres", "title dispute", "possession", "partition", "illegal mutation", "boundary", "occupancy raiyat", "government land", "gauchar", "DCLR shetra adhikar"]
+    },
+    {
+      "sectionNumber": "5",
+      "sectionTitle": "Filing of Petition and Procedure",
+      "sectionTitleHindi": "याचिका का दाखिल करना और प्रक्रिया",
+      "text": "Any person who has a land dispute falling within the jurisdiction of the DCLR may file a petition before the DCLR of the district in which the land is situated. The petition shall be in the prescribed form and shall contain: (a) details of the land in dispute including khata, khesra, area, village, and thana; (b) nature of the dispute; (c) name and address of all parties having an interest; (d) relief sought. On receipt of the petition, the DCLR shall issue notice to all opposite parties within fifteen days. The DCLR shall endeavour to dispose of all petitions within six months of filing.",
+      "textHindi": "कोई भी व्यक्ति जिसका भूमि विवाद जिला भूमि सुधार उप-समाहर्त्ता के क्षेत्राधिकार के भीतर आता है, जिले के जिला भूमि सुधार उप-समाहर्त्ता के समक्ष याचिका दाखिल कर सकता है।",
+      "effectiveFrom": "2009-01-01",
+      "keywords": ["petition", "DCLR", "filing", "khata", "khesra", "notice", "15 days", "6 months disposal", "land dispute petition", "yaachika"]
+    },
+    {
+      "sectionNumber": "14",
+      "sectionTitle": "Appeals from DCLR — To Collector and Commissioner",
+      "sectionTitleHindi": "जिला भूमि सुधार उप-समाहर्त्ता के आदेश से अपील — समाहर्त्ता और आयुक्त",
+      "text": "Any person aggrieved by an order of the DCLR may prefer an appeal to the Collector (District Magistrate) of the district within thirty days of the communication of such order. The Collector shall hear the appeal after issuing notice to all parties and pass a reasoned order within sixty days. A further appeal shall lie to the Commissioner of the Division within thirty days of the Collector's order. The Commissioner shall dispose of the appeal within ninety days. The order of the Commissioner shall be final and no further appeal shall lie, but a revision may be preferred before the High Court by way of writ petition under Article 226.",
+      "textHindi": "जिला भूमि सुधार उप-समाहर्त्ता के आदेश से व्यथित कोई भी व्यक्ति ऐसे आदेश की संसूचना की तारीख से तीस दिनों के भीतर जिले के समाहर्त्ता (जिला पदाधिकारी) के समक्ष अपील कर सकता है।",
+      "effectiveFrom": "2009-01-01",
+      "keywords": ["appeal", "collector", "commissioner", "30 days", "60 days", "90 days", "DCLR order", "High Court", "writ petition", "Article 226", "DCLR apeel", "samaharta"]
+    },
+    {
+      "sectionNumber": "18",
+      "sectionTitle": "Bar of Civil Courts",
+      "sectionTitleHindi": "सिविल न्यायालयों पर रोक",
+      "text": "No civil court shall have jurisdiction to try any suit or issue any process in respect of any dispute or matter which has been determined or is capable of being determined under this Act. No civil court shall grant any injunction in respect of any matter pending or decided under this Act. Any party who has a dispute covered by this Act must first exhaust the remedies provided under this Act before approaching a civil court. This bar shall apply prospectively from the date of enforcement of this Act.",
+      "textHindi": "किसी सिविल न्यायालय को ऐसे किसी विवाद या विषय के संबंध में कोई वाद विचारण करने या कोई प्रक्रिया जारी करने का क्षेत्राधिकार नहीं होगा जिसका निर्धारण इस अधिनियम के अधीन किया गया है या किया जा सकता है।",
+      "effectiveFrom": "2009-01-01",
+      "keywords": ["civil court bar", "jurisdiction", "injunction", "remedies exhausted", "BLDRA", "civil court varjit", "DCLR"]
+    },
+    {
+      "sectionNumber": "22",
+      "sectionTitle": "Suo Motu Powers of Collector",
+      "sectionTitleHindi": "समाहर्त्ता की स्वतः संज्ञान शक्तियाँ",
+      "text": "The Collector may, on his own motion, call for the records of any proceeding before any DCLR within his district and examine the legality or propriety of any order passed. If the Collector is satisfied that any order is illegal, irregular, or improper, he may quash such order and pass or direct a fresh order to be passed after hearing all concerned parties. The Collector shall exercise such suo motu powers within two years of the order in question. No suo motu action shall be taken without giving the parties affected a prior notice and opportunity of hearing.",
+      "textHindi": "समाहर्त्ता अपनी गति से अपने जिले के किसी भी जिला भूमि सुधार उप-समाहर्त्ता के समक्ष किसी कार्यवाही के अभिलेख मँगा सकता है और पारित किसी आदेश की वैधता या औचित्य की जाँच कर सकता है।",
+      "effectiveFrom": "2009-01-01",
+      "keywords": ["suo motu", "collector", "DCLR records", "illegal order", "quash", "2 years", "notice", "hearing", "sapte sangya", "swataha sangyaan"]
+    }
+  ]
+}

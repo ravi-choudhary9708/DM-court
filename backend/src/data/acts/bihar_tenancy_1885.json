@@ -1,0 +1,67 @@
+{
+  "actName": "Bihar Tenancy Act",
+  "actNameHindi": "बिहार काश्तकारी अधिनियम",
+  "actYear": 1885,
+  "shortName": "BTA 1885",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "Regulates the rights and liabilities of landlords and tenants (raiyats) in Bihar including occupancy rights, transfer restrictions, and dispute resolution.",
+  "officialSource": "https://state.bihar.gov.in/revenue",
+  "sections": [
+    {
+      "sectionNumber": "4",
+      "sectionTitle": "Definitions — Raiyat, Holding, Rent",
+      "sectionTitleHindi": "परिभाषाएँ — रैयत, जोत, लगान",
+      "text": "In this Act: 'raiyat' means primarily a person who has acquired a right to hold land for the purpose of cultivating it by himself, his family, servants, or labourers. A raiyat who holds land on which there is a right of occupancy is called an 'occupancy raiyat'; a raiyat who does not hold such a right is called a 'non-occupancy raiyat'. 'Holding' means a parcel or parcels of land held by a raiyat in one circle (anchal) under one tenure and making one or more consolidated entries in the Jamabandi. 'Rent' means whatever is payable to a landlord by a raiyat on account of the use or occupation of land held by him; this includes contributions in cash, kind, or service. 'Under-raiyat' (dar-raiyat) means a person who holds land from a raiyat and cultivates it.",
+      "textHindi": "इस अधिनियम में: 'रैयत' से मुख्यतः ऐसा व्यक्ति अभिप्रेत है जिसने स्वयं, अपने परिवार, सेवकों या मजदूरों द्वारा खेती करने के प्रयोजन के लिए भूमि धारण करने का अधिकार प्राप्त किया हो। एक रैयत जो ऐसी भूमि धारण करता है जिस पर अधिभोग का अधिकार है, 'अधिभोगी रैयत' कहलाता है।",
+      "effectiveFrom": "1885-01-01",
+      "keywords": ["raiyat", "occupancy raiyat", "non-occupancy raiyat", "holding", "rent", "under-raiyat", "dar-raiyat", "definition", "raiyati haq", "BTA"]
+    },
+    {
+      "sectionNumber": "20",
+      "sectionTitle": "Occupancy Raiyats — Right of Occupancy",
+      "sectionTitleHindi": "अधिभोगी रैयत — अधिभोग का अधिकार",
+      "text": "A raiyat who has held land for twelve years in the same circle under the same landlord shall be entitled to the right of occupancy in that land. Such right of occupancy shall be heritable and shall be transferable to any other raiyat by way of sale, mortgage, or gift with the prior written permission of the Revenue Officer. Occupancy raiyats shall not be ejected except on grounds specified in Section 47 of this Act. The right of occupancy shall be extinguished if the raiyat voluntarily surrenders the holding or is ejected on valid grounds in accordance with the procedure prescribed.",
+      "textHindi": "जो रैयत एक ही जमींदार के अधीन एक ही अंचल में बारह वर्षों से भूमि धारण किए हुए है, उस भूमि में अधिभोग का अधिकार प्राप्त करने का हकदार होगा। ऐसा अधिभोग का अधिकार वंशानुगत होगा और इस अधिनियम की धारा 47 में विनिर्दिष्ट आधारों को छोड़कर अधिभोगी रैयतों को बेदखल नहीं किया जाएगा।",
+      "effectiveFrom": "1885-01-01",
+      "keywords": ["occupancy right", "12 years", "same landlord", "heritable", "transferable", "ejectment", "Section 20", "adhikaar adhikar"]
+    },
+    {
+      "sectionNumber": "47",
+      "sectionTitle": "Grounds for Ejectment of Occupancy Raiyat",
+      "sectionTitleHindi": "अधिभोगी रैयत की बेदखली के आधार",
+      "text": "An occupancy raiyat may be ejected from his holding only on the following grounds: (a) non-payment of rent for two consecutive years; (b) breach of the conditions of his tenure, if such conditions have been reserved and have been adjudicated by a competent court; (c) if the land is required for a public purpose as specified by the State Government. In case of ejectment for non-payment of rent, the raiyat shall be first served a demand notice and given ninety days to pay the outstanding rent before a suit for ejectment is filed. No ejectment shall take place without a decree from a competent civil court. The Revenue Officer may, however, pass orders of actual recovery of possession if the ejectment is due to encroachment on government land.",
+      "textHindi": "अधिभोगी रैयत को उसकी जोत से केवल निम्नलिखित आधारों पर बेदखल किया जा सकता है: (क) लगातार दो वर्षों तक लगान न देना; (ख) उसकी जोत की शर्तों का उल्लंघन, यदि ऐसी शर्तें आरक्षित की गई हों और किसी सक्षम न्यायालय द्वारा न्यायनिर्धारित की गई हों।",
+      "effectiveFrom": "1885-01-01",
+      "keywords": ["ejectment grounds", "non-payment of rent", "breach of conditions", "public purpose", "90 days notice", "civil court decree", "bedakhli ke aadhaar"]
+    },
+    {
+      "sectionNumber": "48B",
+      "sectionTitle": "Bataidari — Rights of Under-Raiyats (Sharecroppers)",
+      "sectionTitleHindi": "बटाईदारी — उप-रैयतों के अधिकार (बटाईदार)",
+      "text": "A dar-raiyat (under-raiyat or sharecropper) shall have the following rights: (a) Right to cultivate the land for a minimum period as agreed in writing or as customary; (b) Right to receive his share of produce as agreed (ordinarily not less than half the produce); (c) Right not to be ejected during the crop season; (d) Right to obtain a written receipt for the share handed over to the raiyat (landlord). In case of any dispute between a raiyat and his dar-raiyat, the Circle Officer shall have jurisdiction to inquire into and decide the dispute after hearing both parties. The dar-raiyat shall not acquire any permanent right in the land by reason of continuous cultivation.",
+      "textHindi": "दर-रैयत (उप-रैयत या बटाईदार) के निम्नलिखित अधिकार होंगे: (क) लिखित रूप में या प्रथानुसार सहमत न्यूनतम अवधि के लिए भूमि की खेती करने का अधिकार; (ख) अपनी उपज का हिस्सा प्राप्त करने का अधिकार (सामान्यतः उपज का कम से कम आधा नहीं)।",
+      "effectiveFrom": "1885-01-01",
+      "keywords": ["bataidari", "dar-raiyat", "sharecropper", "under-raiyat", "cultivation rights", "half produce", "circle officer", "dispute", "ejectment during crop", "bataidaar adhikaar"]
+    },
+    {
+      "sectionNumber": "116",
+      "sectionTitle": "Jurisdiction of Revenue Officers in Tenancy Disputes",
+      "sectionTitleHindi": "काश्तकारी विवादों में राजस्व अधिकारियों का क्षेत्राधिकार",
+      "text": "The following disputes and suits shall be tried by Revenue Officers: (a) suits for rent by a raiyat or against a raiyat; (b) suits for the recovery of possession of land by a raiyat after ejectment; (c) disputes as to the boundaries of holdings; (d) disputes as to the mutation of names in the record of rights; (e) claims to the status of an occupancy raiyat. The Circle Officer shall have jurisdiction to try suits and disputes involving land or rent not exceeding five acres in area or five thousand rupees in value. Appeals from the Circle Officer shall lie to the SDO, and from the SDO to the Collector.",
+      "textHindi": "निम्नलिखित विवादों और वादों का विचारण राजस्व अधिकारियों द्वारा किया जाएगा: (क) रैयत द्वारा या रैयत के विरुद्ध लगान के वाद; (ख) बेदखली के बाद रैयत द्वारा भूमि के कब्जे की वसूली के वाद।",
+      "effectiveFrom": "1885-01-01",
+      "keywords": ["revenue officer jurisdiction", "tenancy disputes", "rent", "ejectment", "boundary", "mutation", "occupancy raiyat", "circle officer", "SDO", "collector", "rajaswa adhikar shetra"]
+    },
+    {
+      "sectionNumber": "167",
+      "sectionTitle": "Limitation — Tenancy Suits",
+      "sectionTitleHindi": "परिसीमा — काश्तकारी वाद",
+      "text": "The period of limitation for suits under this Act shall be: (a) for a suit for rent: three years from the date when the rent becomes due; (b) for a suit for ejectment for non-payment of rent: three years from the date of demand; (c) for a suit for recovery of possession after wrongful ejectment: twelve years from the date of ejectment; (d) for a suit to establish right of occupancy: twelve years from the date of dispute. Any suit filed after the prescribed limitation period shall be dismissed by the Revenue Officer without hearing on merits. The Revenue Officer shall examine the question of limitation as a preliminary issue.",
+      "textHindi": "इस अधिनियम के अधीन वादों की परिसीमा अवधि निम्नलिखित होगी: (क) लगान के वाद के लिए: लगान देय होने की तारीख से तीन वर्ष; (ख) लगान न देने पर बेदखली के वाद के लिए: माँग की तारीख से तीन वर्ष।",
+      "effectiveFrom": "1885-01-01",
+      "keywords": ["limitation", "tenancy suits", "3 years", "12 years", "rent suit", "ejectment", "possession", "occupancy right", "limitation period", "samay seema kashtakari"]
+    }
+  ]
+}
