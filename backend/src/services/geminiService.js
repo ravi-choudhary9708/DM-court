@@ -1,11 +1,22 @@
-const { getVisionModel, getLLMModel, generateEmbedding } = require('../config/gemini');
+/**
+ * geminiService.js
+ * ─────────────────────────────────────────────────────────────────────────────
+ * OCR:           Gemini Vision   (only Vision model can read Hindi PDFs)
+ * Text/LLM:      Groq            (free 14,400 req/day — Llama 3.3 70B)
+ * Embeddings:    Gemini          (OpenRouter/Groq don't provide embeddings)
+ */
+
+const { getVisionModel } = require('../config/gemini');
+const { callGroq }       = require('../config/groq');
+
+// ── OCR via Gemini Vision ─────────────────────────────────────────────────────
 
 /**
  * Extract text from a document (PDF/image) using Gemini Vision
  * Handles Hindi, English, Urdu, Farsi script
  * @param {string} documentUrl - Cloudinary URL of the document
  * @param {string} mimeType - e.g. 'application/pdf', 'image/jpeg'
- * @returns {Object} { text, languages, pageCount }
+ * @returns {Object} { text, languages, success }
  */
 const extractTextFromDocument = async (documentUrl, mimeType = 'application/pdf') => {
   const model = getVisionModel();
@@ -18,7 +29,6 @@ Do NOT translate. Do NOT summarise. Extract verbatim.
 Return the complete extracted text followed by a line: DETECTED_LANGUAGES: [list of detected scripts/languages]`;
 
   try {
-    // Fetch document and convert to base64
     const response = await fetch(documentUrl);
     const buffer = await response.arrayBuffer();
     const base64Data = Buffer.from(buffer).toString('base64');
@@ -34,14 +44,10 @@ Return the complete extracted text followed by a line: DETECTED_LANGUAGES: [list
     ]);
 
     const fullText = result.response.text();
-
-    // Parse detected languages line
     const langMatch = fullText.match(/DETECTED_LANGUAGES:\s*\[(.+)\]/);
     const languages = langMatch
       ? langMatch[1].split(',').map((l) => l.trim())
       : ['unknown'];
-
-    // Remove the DETECTED_LANGUAGES line from the extracted text
     const cleanText = fullText.replace(/DETECTED_LANGUAGES:.+/g, '').trim();
 
     return { text: cleanText, languages, success: true };
@@ -51,71 +57,69 @@ Return the complete extracted text followed by a line: DETECTED_LANGUAGES: [list
   }
 };
 
+// ── Text LLM via Groq ─────────────────────────────────────────────────────────
+
 /**
  * Summarise a party's submissions from OCR text
+ * Powered by Groq (Llama 3.3 70B — free tier)
  * @param {string} ocrText - Extracted text from all party documents
  * @param {string} party - 'A' or 'B'
  * @param {string} partyName - Name of the party
  * @returns {string} Summary
  */
 const summarisePartySubmissions = async (ocrText, party, partyName) => {
-  const model = getLLMModel();
-  const prompt = `You are an assistant helping a District Magistrate Court in Bihar, India.
-Below is the text of documents submitted by ${partyName} (Party ${party}).
+  const messages = [
+    {
+      role: 'system',
+      content:
+        'You are a legal assistant helping a District Magistrate Court in Bihar, India. ' +
+        'You read case documents and summarise what each party claims in factual, concise language. ' +
+        'Use both Hindi and English terms as appropriate (jamabandi, khata, khesra, dakhil-kharij, etc.). ' +
+        'Never add information not present in the documents. Never make legal conclusions.',
+    },
+    {
+      role: 'user',
+      content:
+        `Below is the text of documents submitted by ${partyName} (Party ${party}).\n\n` +
+        `DOCUMENT TEXT:\n${ocrText.substring(0, 8000)}\n\n` +
+        `Provide a structured summary under these headings:\n` +
+        `1. Main Claim\n2. Key Arguments\n3. Documents Submitted\n4. Relief Sought`,
+    },
+  ];
 
-Summarise their main claims, arguments, and evidence in clear, factual language.
-Use both Hindi and English terms as appropriate (e.g., 'jamabandi', 'khata', 'khesra').
-Do NOT add any information not present in the documents.
-Do NOT make legal conclusions — only summarise what the party claims.
-
-DOCUMENT TEXT:
-${ocrText.substring(0, 8000)}
-
-Provide a structured summary under these headings:
-1. Main Claim
-2. Key Arguments
-3. Documents Submitted
-4. Relief Sought`;
-
-  const result = await model.generateContent(prompt);
-  return result.response.text();
+  return await callGroq(messages, { maxTokens: 1024, temperature: 0.3 });
 };
 
 /**
  * Extract specific facts (evidence objects) from OCR text
+ * Powered by Groq (Llama 3.3 70B — free tier)
  * @param {string} ocrText
  * @param {string} documentId
  * @param {string} party
  * @returns {Array} Array of evidence objects
  */
 const extractEvidence = async (ocrText, documentId, party) => {
-  const model = getLLMModel();
-  const prompt = `You are an assistant helping extract legal evidence from court documents in Bihar, India.
-
-Extract specific factual claims from the following document text. 
-For each fact, identify:
-- The exact fact stated
-- The approximate page/section where it appears
-- What legal issue it might be relevant to
-
-Document text (Party ${party}):
-${ocrText.substring(0, 6000)}
-
-Return as JSON array:
-[
-  {
-    "extractedFact": "Party A is recorded as owner of Plot No. 123 since 2010",
-    "pageNumber": 3,
-    "paragraphRef": "Para 2",
-    "relevantIssue": "ownership"
-  }
-]
-
-Only return valid JSON, no other text.`;
+  const messages = [
+    {
+      role: 'system',
+      content:
+        'You are a legal evidence extractor for Indian District Magistrate courts. ' +
+        'Extract specific factual claims from court documents. Return ONLY valid JSON array, no markdown.',
+    },
+    {
+      role: 'user',
+      content:
+        `Extract specific factual claims from the following court document (Party ${party}).\n` +
+        `For each fact identify: the exact fact, approximate page number, paragraph reference, and what legal issue it relates to.\n\n` +
+        `Document text:\n${ocrText.substring(0, 6000)}\n\n` +
+        `Return ONLY a JSON array:\n` +
+        `[\n  {\n    "extractedFact": "Party A is recorded as owner since 2010",\n` +
+        `    "pageNumber": 1,\n    "paragraphRef": "Para 2",\n    "relevantIssue": "ownership"\n  }\n]`,
+    },
+  ];
 
   try {
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
+    const text = await callGroq(messages, { maxTokens: 1500, temperature: 0.1 });
     const jsonMatch = text.match(/\[[\s\S]+\]/);
     if (jsonMatch) {
       return JSON.parse(jsonMatch[0]);

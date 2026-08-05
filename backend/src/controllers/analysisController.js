@@ -7,7 +7,7 @@ const { extractEvidence, summarisePartySubmissions } = require('../services/gemi
 const { retrieveRelevantSections, rerankWithGemini } = require('../services/ragService');
 const { generateEvidenceRef } = require('../utils/helpers');
 const { writeAuditLog } = require('../utils/auditLogger');
-const { getLLMModel } = require('../config/gemini');
+const { callGroq } = require('../config/groq');
 
 // ─── Run AI Analysis ──────────────────────────────────────────────────────────
 
@@ -163,35 +163,29 @@ async function runAnalysisBackground(caseId, caseData, documents, user) {
  * Frame legal issues from case subject + OCR content
  */
 async function frameLegalIssues(caseData, ocrText) {
-  const model = getLLMModel();
-
-  const prompt = `You are an expert legal assistant for Bihar District Magistrate Courts in India.
-
-Case details:
-- Case Number: ${caseData.caseNumber}
-- Case Type: ${caseData.caseType}
-- Subject: ${caseData.subject}
-- Party A (Petitioner): ${caseData.partyA?.name}
-- Party B (Respondent): ${caseData.partyB?.name}
-
-Document contents (first 6000 chars):
-${ocrText.substring(0, 6000)}
-
-Based on the case type and documents, frame 2-4 precise legal issues that the DM must decide.
-For each issue, provide a brief factual analysis based ONLY on the documents above.
-Do NOT make conclusions or recommendations. The DM decides.
-
-Return JSON only:
-[
-  {
-    "issueText": "Whether Party A has established valid title to the disputed land under Bihar Land Reforms Act",
-    "analysis": "Party A has submitted Jamabandi dated 2020 showing their name in column 4. Party B contests this with a sale deed from 1995. The documents present contradictory claims on ownership that require DM's determination."
-  }
-]`;
+  const messages = [
+    {
+      role: 'system',
+      content:
+        'You are an expert legal assistant for Bihar District Magistrate Courts in India. ' +
+        'You frame precise legal issues based on case documents. ' +
+        'Return ONLY valid JSON array, no markdown or explanation.',
+    },
+    {
+      role: 'user',
+      content:
+        `Case details:\n- Case Number: ${caseData.caseNumber}\n- Case Type: ${caseData.caseType}\n` +
+        `- Subject: ${caseData.subject}\n- Party A: ${caseData.partyA?.name}\n- Party B: ${caseData.partyB?.name}\n\n` +
+        `Document contents (first 6000 chars):\n${ocrText.substring(0, 6000)}\n\n` +
+        `Frame 2-4 precise legal issues that the DM must decide. For each issue provide a brief factual analysis ` +
+        `based ONLY on the documents. Do NOT make conclusions. The DM decides.\n\n` +
+        `Return JSON only:\n[\n  {\n    "issueText": "Whether Party A has established valid title...",\n` +
+        `    "analysis": "Party A submitted Jamabandi dated 2020. Party B contests with a 1995 sale deed."\n  }\n]`,
+    },
+  ];
 
   try {
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
+    const text = await callGroq(messages, { maxTokens: 1500, temperature: 0.2 });
     const jsonMatch = text.match(/\[[\s\S]+\]/);
     if (jsonMatch) {
       const parsed = JSON.parse(jsonMatch[0]);

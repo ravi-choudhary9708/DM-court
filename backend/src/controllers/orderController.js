@@ -3,7 +3,7 @@ const Case = require('../models/Case');
 const Evidence = require('../models/Evidence');
 const Issue = require('../models/Issue');
 const Document = require('../models/Document');
-const { getLLMModel } = require('../config/gemini');
+const { callGroq } = require('../config/groq');
 const { writeAuditLog } = require('../utils/auditLogger');
 
 // ─── Generate AI Draft Order ──────────────────────────────────────────────────
@@ -206,19 +206,27 @@ ${sectionsSummaryHindi}
 आदेश इस प्रारूप में लिखें: शीर्षक → वाद संख्या → पक्षकार → प्रस्तावना → अपीलकर्त्ता के तर्क (1,2,3) → प्रतिवादी का प्रतिउत्तर (1,2,3) → न्यायालय का विश्लेषण → निर्णय → निर्देश → हस्ताक्षर (जिला पदाधिकारी, ${districtHindi})।
 केवल हिंदी में, औपचारिक न्यायिक भाषा में, JSON/Markdown नहीं।`;
 
-  // ── Try Gemini first ──────────────────────────────────────────────────────
+  // -- Try Groq (Llama 3.3 70B - free 14,400 req/day) -----------------------
   try {
-    const model = getLLMModel();
-    console.log('[HINDI ORDER] Trying Gemini for case:', caseData.caseNumber, '| model:', 'gemini-2.0-flash-lite');
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
+    console.log('[HINDI ORDER] Calling Groq for case:', caseData.caseNumber);
+    const messages = [
+      {
+        role: 'system',
+        content:
+          'Aap ek varishtha nyayik prarupkar hain jo Bihar ke Jila Padhadhikari Nyayalay ke liye karya karte hain. ' +
+          'Aap keval Hindi mein, aupcharik nyayik bhasha mein aadesh likhte hain. ' +
+          'Kabhi bhi JSON, Markdown, ya English nahin likhen.',
+      },
+      { role: 'user', content: prompt },
+    ];
+    const text = await callGroq(messages, { maxTokens: 3000, temperature: 0.35 });
     if (text && text.trim().length > 200) {
-      console.log('[HINDI ORDER] Gemini succeeded, length:', text.length);
+      console.log('[HINDI ORDER] Groq succeeded, length:', text.length);
       return text.trim();
     }
     throw new Error('Response too short');
   } catch (err) {
-    console.warn('[HINDI ORDER] Gemini failed:', err.message.substring(0, 120));
+    console.warn('[HINDI ORDER] Groq failed:', err.message.substring(0, 120));
     console.log('[HINDI ORDER] Falling back to template-based order generation...');
   }
 
