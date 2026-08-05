@@ -1,5 +1,21 @@
 # NyayaSahayak — Changelog
 
+## [2026-08-02] — Clean Push to GitHub Repository
+
+**Changed by**: AI Agent (Antigravity)
+
+**Files Modified / Created**:
+- Pushed all 96 source files (backend, frontend, developer onboarding docs, 13 act JSON datasets) to `github.com:ravi-choudhary9708/DM-court.git`.
+- Verified `.env` and `node_modules` are protected by `.gitignore` and excluded from GitHub.
+
+**What Changed**: Initial clean commit and push to remote `main` branch.
+
+**Why**: GitHub repository synchronization without exposing credentials.
+
+**New Dependencies**: None
+
+---
+
 ## [2026-08-02] — Added Gitignore Configuration
 
 **Changed by**: AI Agent (Antigravity)
