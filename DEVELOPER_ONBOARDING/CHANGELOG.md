@@ -1,5 +1,21 @@
 # NyayaSahayak — Changelog
 
+## [2026-09-11] — Removed GCP Service Account Key from Git History
+**Changed by**: AI Agent (Antigravity)
+**Files Modified**:
+- `backend/gcpKey.json` — Permanently removed from ALL git commits using `git filter-repo`
+- `backend/.gitignore` — Already updated by developer to exclude `gcpKey.json`
+
+**What Changed**: `backend/gcpKey.json` (Google Cloud Service Account credentials) was accidentally committed and GitHub's Push Protection blocked the push. Used `git filter-repo --path backend/gcpKey.json --invert-paths --force` to rewrite all commits and completely erase the file from git history. Force-pushed the cleaned history to `origin/main`.
+
+**Why**: GitHub secret scanning detected the GCP service account key in commit `9a1d4dc` and rejected the push. The file was removed from history to unblock the push and protect credentials.
+
+**Security Action Required**: The exposed GCP service account key should be revoked immediately in Google Cloud Console (IAM & Admin → Service Accounts) and a new key generated if needed. Store secrets via environment variables, never commit key files.
+
+**New Dependencies**: `git-filter-repo 2.47.0` (pip, dev tooling only — not a project dependency)
+
+---
+
 ## [2026-09-03] — Full RAG Integration for Order Generation
 **Changed by**: AI Agent (Antigravity)
 **Files Modified**:
