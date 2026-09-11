@@ -1,0 +1,73 @@
+{
+  "actName": "Bihar Privileged Persons Homestead Tenancy Act",
+  "actNameHindi": "बिहार विशेषाधिकार प्राप्त व्यक्ति गृहवास काश्तकारी अधिनियम",
+  "actYear": 1947,
+  "shortName": "BPPHT Act 1947",
+  "jurisdiction": "Bihar",
+  "actType": "state",
+  "status": "active",
+  "description": "An Act to make better provisions for the homestead tenancy of privileged persons in rural areas of the State of Bihar.",
+  "officialSource": "Bihar Gazette",
+  "sections": [
+    {
+      "sectionNumber": "2",
+      "sectionTitle": "Definitions",
+      "sectionTitleHindi": "परिभाषाएं",
+      "text": "In this Act, unless there is anything repugnant in the subject or context:\n(a) 'Building' includes a house, outhouse, shed, hut, and any other such structure, whether of masonry, bricks, wood, mud, metal or any other material whatsoever, but does not include any building used for the purpose of carrying on any business or profession;\n(d) 'Privileged person' means a person (i) who is not a proprietor, tenure-holder, under-tenure holder or a mahajan; and (ii) who, besides his homestead, holds no other land or holds any such land not exceeding one acre.",
+      "textHindi": "",
+      "summary": "Defines key terms like 'Building' and 'Privileged person' (a person holding no more than one acre of land other than their homestead).",
+      "effectiveFrom": "1947-01-01T00:00:00Z",
+      "effectiveTo": null,
+      "versionNote": "Original enactment",
+      "keywords": ["definitions", "building", "privileged person", "homestead", "one acre"]
+    },
+    {
+      "sectionNumber": "5",
+      "sectionTitle": "Restoration of Possession of Privileged Tenant",
+      "sectionTitleHindi": "विशेषाधिकार प्राप्त काश्तकार के कब्जे की बहाली",
+      "text": "If a privileged tenant has been ejected by his landlord from his homestead or any part thereof otherwise than in accordance with the provisions of this Act, the Collector may, on his own motion or on an application made in this behalf, restore possession of the homestead to the privileged tenant.",
+      "textHindi": "",
+      "summary": "Empowers the Collector to restore possession of a homestead to a privileged tenant who has been illegally evicted by their landlord.",
+      "effectiveFrom": "1947-01-01T00:00:00Z",
+      "effectiveTo": null,
+      "versionNote": "Original enactment",
+      "keywords": ["restoration", "possession", "ejected", "landlord", "Collector", "illegal eviction"]
+    },
+    {
+      "sectionNumber": "8",
+      "sectionTitle": "Grounds for Ejectment",
+      "sectionTitleHindi": "बेदखली के आधार",
+      "text": "A privileged tenant shall be liable to be ejected from his homestead only on the following grounds, namely:\n(a) that he has used the homestead for a purpose other than for residential purposes;\n(b) that he has failed to pay the rent of the homestead for two consecutive years;\n(c) that he has transferred his holding or any part thereof in contravention of the provisions of this Act.",
+      "textHindi": "",
+      "summary": "Lists the specific grounds under which a privileged tenant can be legally ejected, such as non-payment of rent for two years or using the homestead for non-residential purposes.",
+      "effectiveFrom": "1947-01-01T00:00:00Z",
+      "effectiveTo": null,
+      "versionNote": "Original enactment",
+      "keywords": ["ejectment", "grounds", "eviction", "rent", "transfer", "residential purpose"]
+    },
+    {
+      "sectionNumber": "17-A",
+      "sectionTitle": "Settlement of fair and equitable rent",
+      "sectionTitleHindi": "उचित और न्यायसंगत लगान का निर्धारण",
+      "text": "The Collector may, on his own motion or on application, settle fair and equitable rent in respect of any homestead held by a privileged tenant.",
+      "textHindi": "",
+      "summary": "Allows the Collector to determine and fix a fair and equitable rent for the homestead.",
+      "effectiveFrom": "1947-01-01T00:00:00Z",
+      "effectiveTo": null,
+      "versionNote": "Original enactment",
+      "keywords": ["fair rent", "equitable rent", "Collector", "settlement"]
+    },
+    {
+      "sectionNumber": "20",
+      "sectionTitle": "Power to make rules",
+      "sectionTitleHindi": "नियम बनाने की शक्ति",
+      "text": "The State Government may, by notification in the Official Gazette, make rules to carry out the purposes of this Act.",
+      "textHindi": "",
+      "summary": "Grants the State Government the authority to formulate rules (like the BPPHT Rules, 1948) to implement the Act.",
+      "effectiveFrom": "1947-01-01T00:00:00Z",
+      "effectiveTo": null,
+      "versionNote": "Original enactment",
+      "keywords": ["rules", "State Government", "notification"]
+    }
+  ]
+}

@@ -100,6 +100,12 @@ export default function DashboardPage() {
           </div>
           <div className="flex items-center gap-2 flex-wrap">
             <Link
+              href="/ocr"
+              className="text-xs px-3.5 py-2.5 bg-gradient-to-r from-amber-600/30 to-orange-600/30 border border-amber-500/50 text-amber-300 hover:text-white hover:border-amber-400 rounded-xl transition-all font-semibold flex items-center gap-1.5 shadow-lg shadow-amber-950/30"
+            >
+              <span>⚡</span> OCR Workbench
+            </Link>
+            <Link
               href="/legal"
               className="text-xs px-3.5 py-2.5 bg-slate-800 border border-slate-700 text-slate-300 hover:text-white hover:border-slate-600 rounded-xl transition-colors font-medium flex items-center gap-1.5"
             >
@@ -184,10 +190,11 @@ export default function DashboardPage() {
             <h2 className="text-white font-semibold text-lg mb-4">Quick Actions</h2>
             <div className="space-y-2">
               {[
+                { href: '/ocr', icon: '⚡', label: 'OCR Workbench', sub: 'दस्तावेज ओसीआर परीक्षण' },
                 { href: '/cases/new', icon: '➕', label: 'File New Case', sub: 'नया वाद दर्ज करें' },
                 { href: '/cases?status=order_pending', icon: '✍️', label: 'Pending Orders', sub: 'लंबित आदेश' },
                 { href: '/legal', icon: '📚', label: 'Legal Database', sub: 'विधि डेटाबेस' },
-                { href: '/audit', icon: '🔐', label: 'Audit Log', sub: 'ऑडिट लॉग' },
+                { href: '/admin/audit', icon: '🔐', label: 'Audit Log', sub: 'ऑडिट लॉग' },
               ].map((action) => (
                 <Link
                   key={action.href}

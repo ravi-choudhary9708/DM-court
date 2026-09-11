@@ -14,6 +14,7 @@ const legalRoutes = require('./routes/legal');
 const analysisRoutes = require('./routes/analysis');
 const orderRoutes = require('./routes/orders');
 const auditRoutes = require('./routes/audit');
+const ocrRoutes = require('./routes/ocr');
 
 
 
@@ -59,6 +60,7 @@ app.use('/api/legal', legalRoutes);
 app.use('/api/analysis', analysisRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/audit', auditRoutes);
+app.use('/api/ocr', ocrRoutes);
 
 
 

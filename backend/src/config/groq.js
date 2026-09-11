@@ -37,7 +37,7 @@ const GROQ_MODELS = [
  * @returns {string}         - Generated text response
  */
 const callGroq = async (messages, options = {}) => {
-  const { maxTokens = 2048, temperature = 0.4 } = options;
+  const { maxTokens = 2048, temperature = 0.4, presencePenalty = 0.1, frequencyPenalty = 0.15 } = options;
 
   for (const model of GROQ_MODELS) {
     try {
@@ -48,6 +48,8 @@ const callGroq = async (messages, options = {}) => {
         messages,
         max_tokens: maxTokens,
         temperature,
+        presence_penalty: presencePenalty,
+        frequency_penalty: frequencyPenalty,
       });
 
       const text = response.choices?.[0]?.message?.content;

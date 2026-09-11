@@ -2,8 +2,60 @@
 
 > ⚠️ Update this file whenever you add or modify an API endpoint.
 
-**Base URL**: `http://localhost:5000/api`
+**Base URL**: `http://localhost:5000/api` (Backend) | `http://localhost:8000` (OCR Microservice)
 **Auth**: All protected routes require `Authorization: Bearer <token>` header or `token` cookie.
+
+---
+
+## Standalone OCR Microservice (`http://localhost:8000`)
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/health` | Service health status and active OCR engine info |
+| GET | `/sample` | Process built-in Bihar court sample document |
+| POST | `/ocr` | Upload PDF or Image file (`multipart/form-data`) for multi-page OCR extraction with line-by-line confidence |
+| POST | `/ocr/url` | Extract text from a document URL (JSON `{ "url": "https://..." }`) |
+
+### POST `/ocr`
+- **Request**: `file` (multipart form file upload: PDF, PNG, JPG)
+- **Response**:
+```json
+{
+  "status": "success",
+  "total_pages": 1,
+  "full_text": "...",
+  "average_confidence": 0.92,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "...",
+      "confidence": 0.92,
+      "line_count": 8,
+      "lines": [
+        {
+          "line_number": 1,
+          "text": "न्यायालय समाहर्त्ता...",
+          "confidence": 0.98,
+          "box": [[x1, y1], [x2, y2], [x3, y3], [x4, y4]]
+        }
+      ]
+    }
+  ],
+  "processing_time_seconds": 0.45
+}
+```
+
+---
+
+## OCR Testing & Workbench Routes (`/api/ocr`)
+
+| Method | Endpoint | Auth | Roles | Description |
+|---|---|---|---|---|
+| GET | `/ocr/health` | No | All | Check OCR microservice connectivity, latency, and model info |
+| GET | `/ocr/samples` | No | All | List pre-loaded authentic Bihar DM Court sample petitions and notices |
+| POST | `/ocr/process` | No | All | Process uploaded file (PDF/Image) or remote URL, supports engine (`gemini` / `onnx`) + autoRepair |
+| POST | `/ocr/clean` | No | All | Clean & reconstruct corrupted Devanagari OCR text, restore matras and spacing using Groq Llama 3.3 70B |
+| POST | `/ocr/extract-entities` | Yes | All | Pass OCR text to Groq LLM to extract structured legal metadata (parties, land, acts, relief) |
 
 ---
 

@@ -118,6 +118,24 @@ export const auditAPI = {
   list: (params = {}) => apiFetch(`/audit?${new URLSearchParams(params)}`),
 };
 
+// OCR Workbench & Testing API
+export const ocrAPI = {
+  health: () => apiFetch('/ocr/health'),
+  samples: () => apiFetch('/ocr/samples'),
+  processUrl: (body) => apiFetch('/ocr/process', { method: 'POST', body: JSON.stringify(body) }),
+  processFile: (formData) =>
+    fetch(`${API_BASE}/ocr/process`, {
+      method: 'POST',
+      headers: { ...(getToken() ? { Authorization: `Bearer ${getToken()}` } : {}) },
+      body: formData,
+      credentials: 'include',
+    }).then((r) => r.json()),
+  cleanText: (body) => apiFetch('/ocr/clean', { method: 'POST', body: JSON.stringify(body) }),
+  extractEntities: (body) =>
+    apiFetch('/ocr/extract-entities', { method: 'POST', body: JSON.stringify(body) }),
+};
+
 export default apiFetch;
+
 
 

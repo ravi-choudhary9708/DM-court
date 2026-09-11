@@ -1,26 +1,27 @@
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { GoogleGenAI } = require('@google/genai');
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+// GOOGLE_APPLICATION_CREDENTIALS env var is picked up automatically by the SDK
+const client = new GoogleGenAI({
+  vertexai: true,
+  project: process.env.GOOGLE_CLOUD_PROJECT,
+  location: process.env.GOOGLE_CLOUD_LOCATION || 'us-central1'
+});
 
-// Main LLM model for analysis and order drafting
-// gemini-2.0-flash-lite: higher free quota (30 RPM) than gemini-2.0-flash (15 RPM)
-const getLLMModel = () => genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
-
-// Vision model for OCR — handles Hindi, English, Urdu, Farsi
-const getVisionModel = () => genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
-
-// Embedding model for RAG
-const getEmbeddingModel = () => genAI.getGenerativeModel({ model: 'text-embedding-004' });
+// We export the client to be used directly by controllers.
+// They should call `client.models.generateContent({ model: '...', contents: ... })`
 
 /**
- * Generate embedding for a text string
+ * Generate embedding for a text string using Vertex AI
  * @param {string} text - Input text (Hindi/English/Urdu/Farsi)
  * @returns {number[]} - Embedding vector
  */
 const generateEmbedding = async (text) => {
-  const model = getEmbeddingModel();
-  const result = await model.embedContent(text);
-  return result.embedding.values;
+  const response = await client.models.embedContent({
+    model: 'text-embedding-004',
+    contents: text
+  });
+  // Note: the response structure in @google/genai is response.embeddings[0].values
+  return response.embeddings[0].values;
 };
 
 /**
@@ -37,4 +38,4 @@ const cosineSimilarity = (vecA, vecB) => {
   return dotProduct / (magnitudeA * magnitudeB);
 };
 
-module.exports = { genAI, getLLMModel, getVisionModel, getEmbeddingModel, generateEmbedding, cosineSimilarity };
+module.exports = { client, generateEmbedding, cosineSimilarity };

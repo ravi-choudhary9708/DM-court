@@ -7,7 +7,9 @@ const { extractEvidence, summarisePartySubmissions } = require('../services/gemi
 const { retrieveRelevantSections, rerankWithGemini } = require('../services/ragService');
 const { generateEvidenceRef } = require('../utils/helpers');
 const { writeAuditLog } = require('../utils/auditLogger');
-const { callGroq } = require('../config/groq');
+const { client } = require('../config/gemini');
+
+const GEMINI_MODEL = 'gemini-2.5-flash';
 
 // ─── Run AI Analysis ──────────────────────────────────────────────────────────
 
@@ -185,8 +187,18 @@ async function frameLegalIssues(caseData, ocrText) {
   ];
 
   try {
-    const text = await callGroq(messages, { maxTokens: 1500, temperature: 0.2 });
-    const jsonMatch = text.match(/\[[\s\S]+\]/);
+    const prompt =
+      `Case details:\n- Case Number: ${caseData.caseNumber}\n- Case Type: ${caseData.caseType}\n` +
+      `- Subject: ${caseData.subject}\n- Party A: ${caseData.partyA?.name}\n- Party B: ${caseData.partyB?.name}\n\n` +
+      `Document contents (first 6000 chars):\n${ocrText.substring(0, 6000)}\n\n` +
+      `You are an expert legal assistant for Bihar District Magistrate Courts in India. ` +
+      `Frame 2-4 precise legal issues that the DM must decide. For each issue provide a brief factual analysis ` +
+      `based ONLY on the documents. Do NOT make conclusions. The DM decides.\n\n` +
+      `Return JSON only:\n[\n  {\n    "issueText": "Whether Party A has established valid title...",\n` +
+      `    "analysis": "Party A submitted Jamabandi dated 2020. Party B contests with a 1995 sale deed."\n  }\n]`;
+
+    const response = await client.models.generateContent({ model: GEMINI_MODEL, contents: prompt });
+    const jsonMatch = response.text.match(/\[[\s\S]+\]/);
     if (jsonMatch) {
       const parsed = JSON.parse(jsonMatch[0]);
       return Array.isArray(parsed) ? parsed.slice(0, 4) : [];

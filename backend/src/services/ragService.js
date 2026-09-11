@@ -1,6 +1,6 @@
 const LegalSection = require('../models/LegalSection');
 const { generateEmbedding, cosineSimilarity } = require('../config/gemini');
-const { getLLMModel } = require('../config/gemini');
+const { client } = require('../config/gemini');
 
 /**
  * Retrieve relevant legal sections using hybrid search
@@ -101,7 +101,6 @@ const retrieveRelevantSections = async (query, options = {}) => {
  */
 const rerankWithGemini = async (query, sections) => {
   if (sections.length === 0) return [];
-  const model = getLLMModel();
 
   const sectionList = sections
     .map(
@@ -121,8 +120,11 @@ Provisions:
 ${sectionList}`;
 
   try {
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
+    const response = await client.models.generateContent({
+      model: 'gemini-2.5-flash',
+      contents: prompt
+    });
+    const text = response.text;
     const jsonMatch = text.match(/\[[\s\S]+\]/);
     if (!jsonMatch) return sections;
 

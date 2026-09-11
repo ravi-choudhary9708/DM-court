@@ -27,6 +27,5 @@ const evidenceSchema = new mongoose.Schema(
 );
 
 evidenceSchema.index({ caseId: 1, party: 1 });
-evidenceSchema.index({ evidenceRef: 1 });
 
 module.exports = mongoose.model('Evidence', evidenceSchema);

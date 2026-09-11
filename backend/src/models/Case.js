@@ -94,7 +94,6 @@ const caseSchema = new mongoose.Schema(
 );
 
 // Index for fast search
-caseSchema.index({ caseNumber: 1 });
 caseSchema.index({ status: 1 });
 caseSchema.index({ 'partyA.name': 'text', 'partyB.name': 'text', subject: 'text' });
 
